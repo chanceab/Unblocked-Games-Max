@@ -5,6 +5,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "command": "npm dev",
+      "name": "dev",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+
+    {
       "name": "Next.js: debug full stack",
       "type": "node-terminal",
       "request": "launch",
