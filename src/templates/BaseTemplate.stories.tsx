@@ -28,24 +28,14 @@ type Story = StoryObj<typeof meta>;
 export const BaseWithReactComponent = {
   args: {
     children: <div>Children node</div>,
-    leftNav: (
-      <>
-        <li>Link 1</li>
-        <li>Link 2</li>
-      </>
-    ),
+
   },
 } satisfies Story;
 
 export const BaseWithString = {
   args: {
     children: 'String',
-    leftNav: (
-      <>
-        <li>Link 1</li>
-        <li>Link 2</li>
-      </>
-    ),
+
   },
 } satisfies Story;
 
@@ -53,12 +43,7 @@ export const BaseWithString = {
 export const BaseWithHomeLink: Story = {
   args: {
     children: <div>Children node</div>,
-    leftNav: (
-      <>
-        <li>Link 1</li>
-        <li>Link 2</li>
-      </>
-    ),
+
   },
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
