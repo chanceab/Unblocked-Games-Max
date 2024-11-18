@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/chanceab/Unblocked-Games-Max/compare/v1.0.0...v1.1.0) (2024-11-18)
+
+
+### Features
+
+* 默认语言 ([7dcca59](https://github.com/chanceab/Unblocked-Games-Max/commit/7dcca59b27c2b4004c0c55e84295e245d5b25607))
+
 # 1.0.0 (2024-11-17)
 
 
