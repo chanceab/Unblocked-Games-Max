@@ -8,7 +8,7 @@
     "sign_up_link": "注册"
   },
   "BaseTemplate": {
-    "description": "为您的 Nextjs Boilerplate 提供的入门代码，包含 Tailwind CSS",
+    "description": "为您的 Nextjs 项目 提供的入门代码，包含 Tailwind CSS",
     "made_with": "由 <author></author> 制作。"
   },
   "Index": {
