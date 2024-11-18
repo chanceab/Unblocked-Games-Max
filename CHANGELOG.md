@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/chanceab/Unblocked-Games-Max/compare/v1.1.0...v1.1.1) (2024-11-18)
+
+
+### Bug Fixes
+
+* 更新 BaseTemplate 描述以更准确地反映项目内容 ([da7b7a9](https://github.com/chanceab/Unblocked-Games-Max/commit/da7b7a9cd03f8c404ff1eb3d07722f2e2f7cbb6b))
+
 # [1.1.0](https://github.com/chanceab/Unblocked-Games-Max/compare/v1.0.0...v1.1.0) (2024-11-18)
 
 
