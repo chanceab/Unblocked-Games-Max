@@ -6,6 +6,6 @@ const localePrefix: LocalePrefix = 'as-needed';
 export const AppConfig = {
   name: 'Unblocked Games Max',
   locales: ['en', 'zh-cn', 'fr'],
-  defaultLocale: 'zh-cn',
+  defaultLocale: 'en',
   localePrefix,
 };
