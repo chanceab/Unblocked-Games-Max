@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/chanceab/Unblocked-Games-Max/compare/v1.1.1...v1.2.0) (2024-12-11)
+
+
+### Features
+
+* 首页搭建 ([6699432](https://github.com/chanceab/Unblocked-Games-Max/commit/66994328f6018d86baecceb17deaba3a94f20298))
+
 ## [1.1.1](https://github.com/chanceab/Unblocked-Games-Max/compare/v1.1.0...v1.1.1) (2024-11-18)
 
 
