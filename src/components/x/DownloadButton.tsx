@@ -41,17 +41,10 @@ export function DownloadButton() {
         body: JSON.stringify({ url: userInput }),
       });
 
-      console.error('下载成功:', res);
-
-      if (!res.ok) {
-        const errorData = await res.json();
-        setError(errorData.error || t('analysis_error'));
-
-        return;
-      }
+      console.error('下载成功1:', res);
 
       const data = await res.json();
-      console.error('下载成功:', data);
+      console.error('下载成功2:', data);
     } catch (err) {
       console.error('下载错误:', err);
       setError('下载失败，请稍后重试');
