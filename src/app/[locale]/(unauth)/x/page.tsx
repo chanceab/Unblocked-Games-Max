@@ -1,11 +1,13 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import { DownloadButton } from '@/components/x/DownloadButton';
 import { Faq } from '@/components/x/Faq';
 
-export default function XPage() {
+export default function XPage(props: { params: { locale: string } }) {
+  unstable_setRequestLocale(props.params.locale);
   const t = useTranslations('X');
   return (
     <div className="min-h-screen  text-white">
