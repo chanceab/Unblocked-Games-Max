@@ -3,6 +3,22 @@
 
 ### Features
 
+* test ([8205c4f](https://github.com/chanceab/Unblocked-Games-Max/commit/8205c4f3d0be61bc506f52cecb4e228219cd298d))
+* test ([0887b42](https://github.com/chanceab/Unblocked-Games-Max/commit/0887b4219c558e2d067ad0119ef6db170c1327d5))
+* test ([facc7aa](https://github.com/chanceab/Unblocked-Games-Max/commit/facc7aa356bc76fc9645f26e1fa13fce923f165f))
+* test ([81333c5](https://github.com/chanceab/Unblocked-Games-Max/commit/81333c5453fcf2b427a61db9799fd0abc0e09116))
+* 代码修改 ([825dbfb](https://github.com/chanceab/Unblocked-Games-Max/commit/825dbfb6fb8b72207b5699776cc8629eee9381f1))
+* 代码更改 ([388da94](https://github.com/chanceab/Unblocked-Games-Max/commit/388da941c4b5a80bf106aa5f776334acf8a526ff))
+* 文件修改 ([ce2d6f6](https://github.com/chanceab/Unblocked-Games-Max/commit/ce2d6f6701a3f323d31a4a3d32edbe3cf876213e))
+* 测试 ([8d9bff5](https://github.com/chanceab/Unblocked-Games-Max/commit/8d9bff5ff69b4b901160c7bafb35ecfefca8ef3e))
+* 测试日志 ([18a7bda](https://github.com/chanceab/Unblocked-Games-Max/commit/18a7bda168dbd080a8c5777d2e3feb5378d10fd9))
+* 状态 ([5167ec3](https://github.com/chanceab/Unblocked-Games-Max/commit/5167ec358d292ba091eec56f0d7ed0df0cbbadb2))
+
+# [1.7.0](https://github.com/chanceab/Unblocked-Games-Max/compare/v1.6.0...v1.7.0) (2025-06-06)
+
+
+### Features
+
 * test ([0887b42](https://github.com/chanceab/Unblocked-Games-Max/commit/0887b4219c558e2d067ad0119ef6db170c1327d5))
 * test ([facc7aa](https://github.com/chanceab/Unblocked-Games-Max/commit/facc7aa356bc76fc9645f26e1fa13fce923f165f))
 * test ([81333c5](https://github.com/chanceab/Unblocked-Games-Max/commit/81333c5453fcf2b427a61db9799fd0abc0e09116))
