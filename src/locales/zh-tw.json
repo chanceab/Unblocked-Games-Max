@@ -1,0 +1,136 @@
+{
+  "RootLayout": {
+    "home_link": "主頁",
+    "about_link": "關於",
+    "counter_link": "計數器",
+    "portfolio_link": "作品集",
+    "sign_in_link": "登入",
+    "sign_up_link": "註冊"
+  },
+  "BaseTemplate": {
+    "description": "為您的 Nextjs 項目提供的入門代碼，包含 Tailwind CSS",
+    "made_with": "由 <author></author> 製作。"
+  },
+  "Index": {
+    "meta_title": "Next.js Boilerplate 演示",
+    "meta_description": "Next js Boilerplate 是您項目的完美入門代碼。使用 Next.js 框架構建您的 React 應用程式。",
+    "sponsors_title": "贊助商"
+  },
+  "Counter": {
+    "meta_title": "計數器",
+    "meta_description": "資料庫操作範例",
+    "loading_counter": "正在加載計數器...",
+    "error_reporting_powered_by": "錯誤報告由...提供"
+  },
+  "CounterForm": {
+    "presentation": "計數器儲存在資料庫中，並根據您提供的值遞增。",
+    "label_increment": "遞增",
+    "button_increment": "遞增"
+  },
+  "CurrentCount": {
+    "count": "計數: {count}"
+  },
+  "About": {
+    "meta_title": "關於",
+    "meta_description": "關於頁面描述",
+    "about_paragraph": "歡迎來到我們的關於頁面！我們是一支充滿激情的團隊，致力於創造出色的軟體。",
+    "translation_powered_by": "翻譯由...提供"
+  },
+  "Portfolio": {
+    "meta_title": "作品集",
+    "meta_description": "歡迎來到我的作品集頁面！",
+    "presentation": "歡迎來到我的作品集頁面！在這裡，您將找到我精心策劃的作品和成就集合。通過這個作品集，我展示了我的專業知識、創造力以及我能為您的項目帶來的價值。",
+    "portfolio_name": "作品集 {name}",
+    "error_reporting_powered_by": "錯誤報告由...提供",
+    "coverage_powered_by": "代碼覆蓋率由...提供"
+  },
+  "PortfolioSlug": {
+    "meta_title": "作品集 {slug}",
+    "meta_description": "作品集 {slug} 描述",
+    "header": "作品集 {slug}",
+    "content": "為公司活動創建了一套宣傳材料和品牌元素。設計了一個視覺統一的主題，包括標誌、海報、橫幅和數字資產。在融入客戶品牌標識的同時，注入了現代和創新的元素。活動參與者的積極反饋，促成了成功的活動，提升了參與度和品牌知名度。",
+    "log_management_powered_by": "日誌管理由...提供"
+  },
+  "SignIn": {
+    "meta_title": "登入",
+    "meta_description": "通過我們用戶友好的登入過程無縫登入到您的帳戶。"
+  },
+  "SignUp": {
+    "meta_title": "註冊",
+    "meta_description": "通過我們直觀的註冊過程輕鬆創建帳戶。"
+  },
+  "Dashboard": {
+    "meta_title": "儀表板",
+    "hello_message": "你好 {email}！"
+  },
+  "UserProfile": {
+    "meta_title": "用戶資料"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "儀表板",
+    "user_profile_link": "管理您的帳戶",
+    "sign_out": "登出"
+  },
+  "X": {
+    "title": "Twitter/X 視頻下載",
+    "description": "快速、免費下載推特視頻，支持高清畫質，無需註冊",
+    "input_placeholder": "輸入 Twitter/X 視頻鏈接",
+
+    "download_button_tip": "在此粘貼視頻鏈接",
+    "download": "下載",
+    "downloading": "正在下載",
+    "validation_error1": "請輸入視頻鏈接",
+    "validation_error2": "請輸入有效的 X 平台視頻鏈接",
+    "analysis_error": "下載失敗，請稍後重試",
+
+    "welcome": "歡迎來到 GetSany，一個專為下載 X 平台帖子中的視頻而打造的網站。我們提供快速可靠的解決方案，幫助您輕鬆突破平台下載限制。通過我們簡潔友好的界面，您可以輕鬆訪問和下載您喜愛的內容，讓視頻獲取變得前所未有的簡單。無論您是想保存精彩瞬間，還是離線觀看，我們都能滿足您的需求。立即體驗，輕鬆下載！",
+    "supported": "支持的平台：",
+    "welcome2": "歡迎來到 GetSany，一個專為下載 X 平台帖子中的視頻而設計的工具。我們提供完全免費的服務，讓您輕鬆獲取所需內容。",
+    "welcome3": "我們的工具兼容所有設備，無論是桌面還是移動設備，您都可以輕鬆下載喜愛的視頻。",
+    "welcome4": "只需簡單幾步，即可通過我們的平台轉換 X 平台視頻。",
+    "welcome5": "享受快速下載和無限視頻訪問，無需任何費用。",
+    "welcome6": "通過我們的詳細指南和專業建議，輕鬆掌握視頻下載的技巧。",
+
+    "faq1": {
+      "question": "什麼是 GetSany/X 以及它有什麼作用？",
+      "answer": "GetSany/X 是一個專業的 X 平台視頻下載工具。它能幫助用戶輕鬆下載和保存 X 平台上的視頻內容，無需註冊，完全免費。我們的工具提供高速下載體驗，支持高清視頻質量，是獲取 X 平台視頻內容的理想選擇。"
+    },
+    "faq2": {
+      "question": "如何使用 GetSany/X 下載 X 視頻?",
+      "answer": "使用 GetSany/X 下載視頻非常簡單：\n1. 複製您想要下載的 X 視頻鏈接\n2. 將鏈接粘貼到我們網站的輸入框中\n3. 點擊\"下載\"按鈕\n4. 選擇您想要的視頻質量\n5. 等待下載完成即可"
+    },
+    "faq3": {
+      "question": "GetSany/x 支持哪些視頻格式？",
+      "answer": "GetSany/X 支持多種視頻格式下載：\n• MP4 高清格式\n• WebM 格式\n• 音頻 MP3 格式\n我們會自動識別最佳質量，同時也讓您可以根據需求選擇合適的格式和質量。"
+    },
+    "faq4": {
+      "question": "GetSany/X 安全嗎?",
+      "answer": "是的，GetSany/X 完全安全。我們的服務：\n• 不需要安裝任何軟體\n• 不收集用戶個人信息\n• 使用 HTTPS 加密保護數據傳輸\n• 定期進行安全掃描和更新\n• 無廣告和惡意軟體"
+    }
+  },
+  "YouTube": {
+    "title": "YouTube影片下載器",
+    "description": "快速簡單地下載YouTube影片 - 無需註冊",
+    "input_placeholder": "在此貼上影片連結",
+    "download": "下載",
+    "downloading": "下載中...",
+    "scanned_by": "由",
+    "norton_safe": "Norton™ Safe Web 安全認證",
+    "supported_platforms": "支援的平台：",
+
+    "features": {
+      "feature1": "使用我們頂級的工具體驗最佳的YouTube影片下載 - 完全免費。",
+      "feature2": "按照您的偏好下載內容：從MP4到MP3，標準到全高清解析度。",
+      "feature3": "完美相容所有裝置 - 在桌面或行動裝置上取得您喜愛的影片。",
+      "feature4": "透過我們簡化的平台，只需幾次點擊即可轉換YouTube影片。",
+      "feature5": "獲得閃電般的下載速度和無限的影片存取，無需花費一分錢。",
+      "feature6": "透過我們全面的指南和專家提示掌握YouTube下載。"
+    },
+
+    "errors": {
+      "invalid_url": "請輸入有效的YouTube網址",
+      "download_failed": "影片下載失敗。請重試。",
+      "empty_url": "請輸入影片網址"
+    }
+  }
+}

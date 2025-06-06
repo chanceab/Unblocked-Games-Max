@@ -1,30 +1,12 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 
 type FaqItem = {
   question: string;
   answer: string;
 };
-
-const faqData: FaqItem[] = [
-  {
-    question: '什么是 GetSany/X 以及它有什么作用？',
-    answer: 'GetSany/X 是一个专业的 X 平台视频下载工具。它能帮助用户轻松下载和保存 X 平台上的视频内容，无需注册，完全免费。我们的工具提供高速下载体验，支持高清视频质量，是获取 X 平台视频内容的理想选择。',
-  },
-  {
-    question: '如何使用 GetSany/X 下载 X 视频?',
-    answer: '使用 GetSany/X 下载视频非常简单：\n1. 复制您想要下载的 X 视频链接\n2. 将链接粘贴到我们网站的输入框中\n3. 点击"下载"按钮\n4. 选择您想要的视频质量\n5. 等待下载完成即可',
-  },
-  {
-    question: 'GetSany/x 支持哪些视频格式？',
-    answer: 'GetSany/X 支持多种视频格式下载：\n• MP4 高清格式\n• WebM 格式\n• 音频 MP3 格式\n我们会自动识别最佳质量，同时也让您可以根据需求选择合适的格式和质量。',
-  },
-  {
-    question: 'GetSany/X 安全吗?',
-    answer: '是的，GetSany/X 完全安全。我们的服务：\n• 不需要安装任何软件\n• 不收集用户个人信息\n• 使用 HTTPS 加密保护数据传输\n• 定期进行安全扫描和更新\n• 无广告和恶意软件',
-  },
-];
 
 const FaqItemCom = (props: { item: FaqItem }) => {
   const [open, setOpen] = useState(false);
@@ -72,6 +54,27 @@ const FaqItemCom = (props: { item: FaqItem }) => {
 };
 
 export const Faq = () => {
+  const t = useTranslations('X');
+
+  const faqData: FaqItem[] = [
+    {
+      question: t('faq1.question'),
+      answer: t('faq1.answer'),
+    },
+    {
+      question: t('faq2.question'),
+      answer: t('faq2.answer'),
+    },
+    {
+      question: t('faq3.question'),
+      answer: t('faq3.answer'),
+    },
+    {
+      question: t('faq4.question'),
+      answer: t('faq4.answer'),
+    },
+  ];
+
   return (
     <div>
       <h2 className="mt-10 text-center text-2xl font-bold text-primary">FAQ</h2>

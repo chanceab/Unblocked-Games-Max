@@ -70,6 +70,68 @@
     "dashboard_link": "Tableau de bord",
     "user_profile_link": "Gérer votre compte",
     "sign_out": "Se déconnecter"
-  }
+  },
+  "X": {
+    "title": "Téléchargement de vidéos Twitter/X",
+    "description": "Téléchargez rapidement et gratuitement des vidéos Twitter en haute définition, sans inscription requise",
+    "input_placeholder": "Entrez le lien de la vidéo Twitter/X",
 
+    "download_button_tip": "Collez le lien de la vidéo ici",
+    "download": "Télécharger",
+    "downloading": "Téléchargement en cours",
+    "validation_error1": "Veuillez entrer un lien vidéo",
+    "validation_error2": "Veuillez entrer un lien vidéo valide de la plateforme X",
+    "analysis_error": "Échec du téléchargement, veuillez réessayer plus tard",
+
+    "welcome": "Bienvenue sur GetSany, un site conçu spécifiquement pour télécharger des vidéos des publications de la plateforme X. Nous offrons une solution rapide et fiable pour vous aider à contourner facilement les restrictions de téléchargement de la plateforme. Avec notre interface simple et conviviale, vous pouvez facilement accéder à vos contenus préférés et les télécharger, rendant l'acquisition de vidéos plus simple que jamais. Que vous souhaitiez sauvegarder des moments forts ou regarder hors ligne, nous pouvons répondre à vos besoins. Essayez dès maintenant et téléchargez facilement !",
+    "supported": "Plateformes prises en charge :",
+    "welcome2": "Bienvenue sur GetSany, un outil conçu spécifiquement pour télécharger des vidéos des publications de la plateforme X. Nous offrons un service entièrement gratuit pour vous aider à obtenir facilement le contenu dont vous avez besoin.",
+    "welcome3": "Notre outil est compatible avec tous les appareils, que ce soit sur ordinateur de bureau ou mobile, vous permettant de télécharger facilement vos vidéos préférées.",
+    "welcome4": "En quelques étapes simples, vous pouvez convertir les vidéos de la plateforme X via notre plateforme.",
+    "welcome5": "Profitez de téléchargements rapides et d'un accès illimité aux vidéos sans aucun coût.",
+    "welcome6": "Avec nos guides détaillés et nos conseils d'experts, maîtrisez facilement les techniques de téléchargement de vidéos.",
+
+    "faq1": {
+      "question": "Qu'est-ce que GetSany/X et à quoi ça sert ?",
+      "answer": "GetSany/X est un outil professionnel de téléchargement de vidéos pour la plateforme X. Il aide les utilisateurs à télécharger et à sauvegarder facilement le contenu vidéo de la plateforme X sans inscription, totalement gratuit. Notre outil offre une expérience de téléchargement à haute vitesse et prend en charge la qualité vidéo haute définition, ce qui en fait un choix idéal pour obtenir du contenu vidéo de la plateforme X."
+    },
+    "faq2": {
+      "question": "Comment utiliser GetSany/X pour télécharger des vidéos X ?",
+      "answer": "Utiliser GetSany/X pour télécharger des vidéos est très simple :\n1. Copiez le lien de la vidéo X que vous souhaitez télécharger\n2. Collez le lien dans la zone de saisie sur notre site\n3. Cliquez sur le bouton \"Télécharger\"\n4. Choisissez la qualité vidéo que vous souhaitez\n5. Attendez que le téléchargement soit terminé"
+    },
+    "faq3": {
+      "question": "Quels formats vidéo GetSany/X prend-il en charge ?",
+      "answer": "GetSany/X prend en charge le téléchargement dans divers formats vidéo :\n• Format MP4 HD\n• Format WebM\n• Format audio MP3\nNous détectons automatiquement la meilleure qualité, et vous pouvez également choisir le format et la qualité appropriés selon vos besoins."
+    },
+    "faq4": {
+      "question": "GetSany/X est-il sûr ?",
+      "answer": "Oui, GetSany/X est totalement sûr. Notre service :\n• Ne nécessite aucune installation de logiciel\n• Ne collecte pas d'informations personnelles des utilisateurs\n• Utilise le cryptage HTTPS pour protéger la transmission de données\n• Effectue des analyses de sécurité et des mises à jour régulières\n• Est exempt de publicités et de logiciels malveillants"
+    }
+
+  },
+  "YouTube": {
+    "title": "Téléchargeur de Vidéos YouTube",
+    "description": "Téléchargez rapidement et facilement des vidéos YouTube - sans inscription",
+    "input_placeholder": "Collez votre lien vidéo ici",
+    "download": "Télécharger",
+    "downloading": "Téléchargement...",
+    "scanned_by": "Analysé par",
+    "norton_safe": "Norton™ Safe Web",
+    "supported_platforms": "Plateformes Supportées :",
+
+    "features": {
+      "feature1": "Profitez du meilleur téléchargement de vidéos YouTube avec notre outil le mieux noté - totalement gratuit.",
+      "feature2": "Téléchargez du contenu dans la qualité de votre choix : du MP4 au MP3, de la qualité standard à la Full HD.",
+      "feature3": "Compatibilité parfaite avec tous les appareils - récupérez vos vidéos préférées sur ordinateur ou mobile.",
+      "feature4": "Convertissez les vidéos YouTube en quelques clics simples grâce à notre plateforme optimisée.",
+      "feature5": "Obtenez des téléchargements ultra-rapides et un accès illimité aux vidéos sans dépenser un centime.",
+      "feature6": "Maîtrisez le téléchargement YouTube avec notre guide complet et nos conseils d'experts."
+    },
+
+    "errors": {
+      "invalid_url": "Veuillez entrer une URL YouTube valide",
+      "download_failed": "Échec du téléchargement de la vidéo. Veuillez réessayer.",
+      "empty_url": "Veuillez entrer une URL de vidéo"
+    }
+  }
 }

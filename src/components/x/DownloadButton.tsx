@@ -1,10 +1,13 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 
 export const regex = /^(?:https?:\/\/)?(?:www\.)?(?:x\.com|twitter\.com)\/\w+\/status\/\d+$/;
 
 export function DownloadButton() {
+  const t = useTranslations('X');
+
   const [userInput, setUserInput] = useState<string>('');
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string>('');
@@ -17,12 +20,12 @@ export function DownloadButton() {
     setError('');
 
     if (!userInput.trim()) {
-      setError('请输入视频链接');
+      setError(t('validation_error1'));
       return;
     }
 
     if (!isValidUrl(userInput)) {
-      setError('请输入有效的 X 平台视频链接');
+      setError(t('validation_error2'));
       return;
     }
 
@@ -49,7 +52,7 @@ export function DownloadButton() {
             }}
             type="text"
             name="videoUrl"
-            placeholder="在此粘贴视频链接"
+            placeholder={t('download_button_tip')}
             className={`size-full rounded-lg px-4 py-3 text-sm text-gray-800
               outline-none transition-colors duration-200
               placeholder:text-gray-500 focus:ring-2 
@@ -65,7 +68,7 @@ export function DownloadButton() {
           className="mt-2 rounded-lg bg-[#E21E3C] px-6 py-3 font-semibold text-white transition hover:bg-[#c91834]
             disabled:opacity-50 sm:mt-0"
         >
-          {isLoading ? 'Downloading...' : 'Download'}
+          {isLoading ? t('downloading') : t('download')}
         </button>
       </div>
 
