@@ -37,12 +37,12 @@ export async function POST(request: Request): Promise<NextResponse> {
 
     if (status !== 200) {
       return NextResponse.json(
-        { error: '无法获取视频信息，请稍后重试' },
+        { error: JSON.stringify({ data, status }) },
         { status },
       );
     }
 
-    return NextResponse.json({ data }, { status });
+    return NextResponse.json({ data: JSON.stringify({ data, status }) }, { status });
   } catch (error) {
     console.error('下载处理错误:', error);
     return NextResponse.json(
