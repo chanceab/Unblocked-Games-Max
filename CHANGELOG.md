@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/chanceab/Unblocked-Games-Max/compare/v1.6.0...v1.7.0) (2025-06-06)
+
+
+### Features
+
+* 重新配置 Sentry 客户端初始化 ([58363d2](https://github.com/chanceab/Unblocked-Games-Max/commit/58363d27fd236a90f238d18fd998db56e22166e8))
+
 # [1.6.0](https://github.com/chanceab/Unblocked-Games-Max/compare/v1.5.0...v1.6.0) (2025-06-06)
 
 
