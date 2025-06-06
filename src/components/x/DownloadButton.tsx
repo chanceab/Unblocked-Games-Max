@@ -32,6 +32,26 @@ export function DownloadButton() {
     setIsLoading(true);
     try {
       // 下载逻辑
+
+      const res = await fetch('/api/x', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ url: userInput }),
+      });
+
+      console.error('下载成功:', res);
+
+      if (!res.ok) {
+        const errorData = await res.json();
+        setError(errorData.error || t('analysis_error'));
+
+        return;
+      }
+
+      const data = await res.json();
+      console.error('下载成功:', data);
     } catch (err) {
       console.error('下载错误:', err);
       setError('下载失败，请稍后重试');
