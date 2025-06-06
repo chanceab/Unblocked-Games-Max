@@ -10,7 +10,7 @@ type YouGetOutput = {
 
 const execPromise = util.promisify(exec);
 
-export const regex = /^(?:https?:\/\/)?(?:www\.)?(?:x\.com|twitter\.com)\/\w+\/status\/\d+$/;
+const regex = /^(?:https?:\/\/)?(?:www\.)?(?:x\.com|twitter\.com)\/\w+\/status\/\d+$/;
 
 export async function POST(request: Request): Promise<NextResponse> {
   try {
