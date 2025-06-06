@@ -65,10 +65,10 @@ function parseYouGetOutput(output: string): YouGetOutput {
     };
   } catch (e) {
     console.error('解析 JSON 错误:', e);
-  }
 
-  return {
-    data: output,
-    status: 500,
-  };
+    return {
+      data: e,
+      status: 500,
+    };
+  }
 }
