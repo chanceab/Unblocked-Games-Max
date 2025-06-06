@@ -68,7 +68,7 @@ function parseYouGetOutput(output: string): YouGetOutput {
   }
 
   return {
-    data: null,
+    data: output,
     status: 500,
   };
 }
