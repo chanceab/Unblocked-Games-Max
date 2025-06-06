@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/chanceab/Unblocked-Games-Max/compare/v1.5.0...v1.6.0) (2025-06-06)
+
+
+### Features
+
+* 调用shell ([8e28526](https://github.com/chanceab/Unblocked-Games-Max/commit/8e2852633947a74497b49d052840793d1c99587e))
+
 # [1.5.0](https://github.com/chanceab/Unblocked-Games-Max/compare/v1.4.0...v1.5.0) (2025-06-06)
 
 
