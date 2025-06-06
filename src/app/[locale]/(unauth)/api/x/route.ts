@@ -3,12 +3,10 @@ import util from 'node:util';
 
 import { NextResponse } from 'next/server';
 
-import { logger } from '@/libs/Logger';
-
-// type YouGetOutput = {
-//   data: any;
-//   status: number;
-// };
+type YouGetOutput = {
+  data: any;
+  status: number;
+};
 
 const execPromise = util.promisify(exec);
 
@@ -35,23 +33,16 @@ export async function POST(request: Request): Promise<NextResponse> {
     // 执行 you-get 命令获取视频信息
     const { stdout } = await execPromise(`you-get --json ${url}`);
 
-    logger.info('Counter fetched successfully', stdout);
+    const { data, status } = parseYouGetOutput(stdout);
 
-    return NextResponse.json(
-      { error: stdout },
-      { status: 501 },
-    );
+    if (status !== 200) {
+      return NextResponse.json(
+        { error: '无法获取视频信息，请稍后重试' },
+        { status },
+      );
+    }
 
-    // const { data, status } = parseYouGetOutput(stdout);
-
-    // if (status !== 200 || !data) {
-    //   return NextResponse.json(
-    //     { error: '无法获取视频信息，请稍后重试' },
-    //     { status },
-    //   );
-    // }
-
-    // return NextResponse.json({ data }, { status: 200 });
+    return NextResponse.json({ data }, { status });
   } catch (error) {
     console.error('下载处理错误:', error);
     return NextResponse.json(
@@ -62,22 +53,22 @@ export async function POST(request: Request): Promise<NextResponse> {
 }
 
 // 获取 you-get 输出中的实际视频 URL
-// function parseYouGetOutput(output: string): YouGetOutput {
-//   // 判断是否为JSON
+function parseYouGetOutput(output: string): YouGetOutput {
+  // 判断是否为JSON
 
-//   try {
-//     // 尝试解析为 JSON
-//     const jsonOutput = JSON.parse(output);
-//     return {
-//       data: jsonOutput,
-//       status: 200,
-//     };
-//   } catch (e) {
-//     console.error('解析 JSON 错误:', e);
-//   }
+  try {
+    // 尝试解析为 JSON
+    const jsonOutput = JSON.parse(output);
+    return {
+      data: jsonOutput,
+      status: 200,
+    };
+  } catch (e) {
+    console.error('解析 JSON 错误:', e);
+  }
 
-//   return {
-//     data: null,
-//     status: 500,
-//   };
-// }
+  return {
+    data: null,
+    status: 500,
+  };
+}
