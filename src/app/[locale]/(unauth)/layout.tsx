@@ -10,7 +10,7 @@ export default function Layout(props: {
 
   return (
     <BaseTemplate>
-      <div className="py-5 text-xl [&_p]:my-6">{props.children}</div>
+      <div className="text-xl [&_p]:my-6">{props.children}</div>
     </BaseTemplate>
   );
 }

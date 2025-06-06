@@ -1,5 +1,5 @@
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
-import type { NextFetchEvent, NextRequest } from 'next/server';
+import { type NextFetchEvent, type NextRequest, NextResponse } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
 
 import { AppConfig } from './utils/AppConfig';
@@ -19,6 +19,12 @@ export default function middleware(
   request: NextRequest,
   event: NextFetchEvent,
 ) {
+  // 检查是否是根路径
+  if (request.nextUrl.pathname === '/') {
+    // 重定向到 /zh-cn/x (或其他默认语言)
+    return NextResponse.redirect(new URL(`/${AppConfig.defaultLocale}/x`, request.url));
+  }
+
   // Run Clerk middleware only when it's necessary
   if (
     request.nextUrl.pathname.includes('/sign-in')

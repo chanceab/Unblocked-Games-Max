@@ -57,5 +57,7 @@
     "pcss",
     "postcss",
     "github-actions-workflow"
-  ]
+  ],
+  "testing.automaticallyOpenTestResults": "neverOpen",
+  "i18n-ally.sourceLanguage": "en"
 }
