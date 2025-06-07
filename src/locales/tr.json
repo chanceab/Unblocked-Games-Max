@@ -1,0 +1,139 @@
+{
+  "RootLayout": {
+    "home_link": "Ana Sayfa",
+    "about_link": "Hakkında",
+    "counter_link": "Sayaç",
+    "portfolio_link": "Portföy",
+    "sign_in_link": "Giriş Yap",
+    "sign_up_link": "Kayıt Ol"
+  },
+  "BaseTemplate": {
+    "description": "Nextjs ve Tailwind CSS ile başlangıç kodu",
+    "made_with": "<author></author> tarafından yapılmıştır."
+  },
+  "Index": {
+    "meta_title": "Next.js Boilerplate Tanıtımı",
+    "meta_description": "Next js Boilerplate, projeniz için mükemmel bir başlangıç kodudur. Next.js çerçevesi ile React uygulamanızı oluşturun.",
+    "sponsors_title": "Sponsorlar"
+  },
+  "Counter": {
+    "meta_title": "Sayaç",
+    "meta_description": "Veritabanı işlemi örneği",
+    "loading_counter": "Sayaç yükleniyor...",
+    "error_reporting_powered_by": "Hata raporlama tarafından sağlanmaktadır"
+  },
+  "CounterForm": {
+    "presentation": "Sayaç, veritabanında saklanır ve sağladığınız değer kadar artırılır.",
+    "label_increment": "Artış miktarı",
+    "button_increment": "Artır"
+  },
+  "CurrentCount": {
+    "count": "Sayı: {count}"
+  },
+  "About": {
+    "meta_title": "Hakkında",
+    "meta_description": "Hakkında sayfasının açıklaması",
+    "about_paragraph": "Hakkında sayfamıza hoş geldiniz! Harika yazılımlar oluşturmaya adanmış tutkulu bireylerden oluşan bir ekibiz.",
+    "translation_powered_by": "Çeviri tarafından sağlanmaktadır"
+  },
+  "Portfolio": {
+    "meta_title": "Portföy",
+    "meta_description": "Portföy sayfama hoş geldiniz!",
+    "presentation": "Portföy sayfama hoş geldiniz! Burada, çalışmalarım ve başarılarımdan oluşan özenle seçilmiş bir koleksiyon bulacaksınız. Bu portföy aracılığıyla, uzmanlığımı, yaratıcılığımı ve projelerinize katabileceğim değeri sergilemeyi amaçlıyorum.",
+    "portfolio_name": "Portföy {name}",
+    "error_reporting_powered_by": "Hata raporlama tarafından sağlanmaktadır",
+    "coverage_powered_by": "Kod kapsamı tarafından sağlanmaktadır"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Portföy {slug}",
+    "meta_description": "Portföy {slug} açıklaması",
+    "header": "Portföy {slug}",
+    "content": "Kurumsal bir etkinlik için bir dizi tanıtım materyali ve marka öğesi oluşturdu. Logo, posterler, afişler ve dijital varlıkları kapsayan görsel olarak birleşik bir tema geliştirdi. Müşterinin marka kimliğini entegre etti ve ona çağdaş ve yenilikçi bir yaklaşım kattı. Etkinlik katılımcılarından olumlu tepkiler aldı ve katılımcı katılımının arttığı ve marka görünürlüğünün yükseldiği başarılı bir etkinlik gerçekleştirdi.",
+    "log_management_powered_by": "Günlük yönetimi tarafından sağlanmaktadır"
+  },
+  "SignIn": {
+    "meta_title": "Giriş Yap",
+    "meta_description": "Kullanıcı dostu giriş sürecimizle hesabınıza sorunsuz bir şekilde giriş yapın."
+  },
+  "SignUp": {
+    "meta_title": "Kayıt Ol",
+    "meta_description": "Sezgisel kayıt sürecimizle kolayca bir hesap oluşturun."
+  },
+  "Dashboard": {
+    "meta_title": "Kontrol Paneli",
+    "hello_message": "Merhaba {email}!"
+  },
+  "UserProfile": {
+    "meta_title": "Kullanıcı Profili"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Kontrol Paneli",
+    "user_profile_link": "Hesabınızı Yönetin",
+    "sign_out": "Çıkış Yap"
+  },
+
+  "X": {
+    "title": "Twitter/X Video İndirici",
+    "description": "Twitter videolarını yüksek çözünürlükte hızlı ve ücretsiz indirin, kayıt gerekmez",
+    "input_placeholder": "Twitter/X video bağlantısını girin",
+
+    "download_button_tip": "Video bağlantısını buraya yapıştırın",
+    "download": "İndir",
+    "downloading": "İndiriliyor",
+    "validation_error1": "Lütfen bir video bağlantısı girin",
+    "validation_error2": "Lütfen geçerli bir X platformu video bağlantısı girin",
+    "analysis_error": "İndirme başarısız oldu, lütfen daha sonra tekrar deneyin",
+
+    "welcome": "GetSany'ye hoş geldiniz, X platformu gönderilerinden video indirmek için özel olarak tasarlanmış bir web sitesi. Platform indirme kısıtlamalarını kolayca aşmanıza yardımcı olacak hızlı ve güvenilir bir çözüm sunuyoruz. Basit ve kullanıcı dostu arayüzümüzle, favori içeriğinize kolayca erişebilir ve indirebilir, video edinimini inanılmaz derecede basit hale getirebilirsiniz. Heyecan verici anları kaydetmek veya çevrimdışı izlemek isteyip istemediğinizden bağımsız olarak, ihtiyaçlarınızı karşılayabiliriz. Şimdi deneyin ve kolayca indirin!",
+    "supported": "Desteklenen Platformlar:",
+    "welcome2": "GetSany'ye hoş geldiniz, X platformu gönderilerinden video indirmek için özel olarak tasarlanmış bir araç. İhtiyacınız olan içeriği kolayca elde etmenize yardımcı olmak için tamamen ücretsiz bir hizmet sunuyoruz.",
+    "welcome3": "Araçlarımız, masaüstü veya mobil cihazlar olsun, tüm cihazlarla uyumludur, böylece favori videolarınızı kolayca indirebilirsiniz.",
+    "welcome4": "Sadece birkaç basit adımda, platformumuz aracılığıyla X platformu videolarını dönüştürebilirsiniz.",
+    "welcome5": "Hızlı indirmelerin ve sınırsız video erişiminin keyfini herhangi bir maliyet olmadan çıkarın.",
+    "welcome6": "Detaylı kılavuzlarımız ve uzman tavsiyelerimizle video indirme becerilerini kolayca öğrenin.",
+
+    "faq": "Sıkça Sorulan Sorular",
+    "faq1": {
+      "question": "GetSany/X nedir ve ne yapar?",
+      "answer": "GetSany/X, X platformu için profesyonel bir video indirme aracıdır. Kullanıcıların X platformundan video içeriğini kolayca indirmelerine ve kaydetmelerine yardımcı olur, kayıt gerektirmez, tamamen ücretsizdir. Araçlarımız yüksek hızlı bir indirme deneyimi sunar ve yüksek çözünürlüklü video kalitesini destekler, bu da onu X platformundan video içeriği almak için ideal bir seçenek haline getirir."
+    },
+    "faq2": {
+      "question": "X videolarını indirmek için GetSany/X nasıl kullanılır?",
+      "answer": "GetSany/X kullanarak video indirmek çok kolay:\n1. İndirmek istediğiniz X video bağlantısını kopyalayın\n2. Bağlantıyı web sitemizdeki giriş kutusuna yapıştırın\n3. \"İndir\" düğmesine tıklayın\n4. İstediğiniz video kalitesini seçin\n5. İndirme tamamlanana kadar bekleyin"
+    },
+    "faq3": {
+      "question": "GetSany/X hangi video formatlarını destekler?",
+      "answer": "GetSany/X, çeşitli video formatlarında indirmeyi destekler:\n• MP4 HD formatı\n• WebM formatı\n• MP3 ses formatı\nOtomatik olarak en iyi kaliteyi algılıyoruz ve ayrıca ihtiyaçlarınıza göre uygun formatı ve kaliteyi seçebilirsiniz."
+    },
+    "faq4": {
+      "question": "GetSany/X güvenli mi?",
+      "answer": "Evet, GetSany/X tamamen güvenlidir. Hizmetimiz:\n• Yazılım kurulumu gerektirmez\n• Kullanıcıların kişisel bilgilerini toplamaz\n• Veri iletimini korumak için HTTPS şifrelemesi kullanır\n• Düzenli güvenlik taramaları ve güncellemeleri gerçekleştirir\n• Reklam ve kötü amaçlı yazılım içermez"
+    }
+  },
+
+  "YouTube": {
+    "title": "YouTube Video İndirici",
+    "description": "YouTube videolarını hızlı ve kolay bir şekilde indirin - kayıt gerekmez",
+    "input_placeholder": "Video bağlantınızı buraya yapıştırın",
+    "download": "İndir",
+    "downloading": "İndiriliyor...",
+    "scanned_by": "Tarayan",
+    "norton_safe": "Norton™ Safe Web",
+    "supported_platforms": "Desteklenen Platformlar:",
+
+    "features": {
+      "feature1": "En iyi YouTube video indirme deneyimini en yüksek puan alan aracımızla yaşayın - tamamen ücretsiz.",
+      "feature2": "İçeriği tercih ettiğiniz kalitede indirin: MP4'ten MP3'e, standart çözünürlükten Full HD'ye.",
+      "feature3": "Tüm cihazlarda kusursuz uyumluluk - favori videolarınızı masaüstü veya mobil cihazlarda alın.",
+      "feature4": "Optimize edilmiş platformumuzu kullanarak YouTube videolarını sadece birkaç basit tıklamayla dönüştürün.",
+      "feature5": "Şimşek hızında indirmeler ve sınırsız video erişimi elde edin, bir kuruş bile harcamadan.",
+      "feature6": "Kapsamlı kılavuzumuz ve uzman ipuçlarımızla YouTube indirmeyi öğrenin."
+    },
+
+    "errors": {
+      "invalid_url": "Lütfen geçerli bir YouTube URL'si girin",
+      "download_failed": "Video indirilemedi. Lütfen tekrar deneyin.",
+      "empty_url": "Lütfen bir video URL'si girin"
+    }
+  }
+}

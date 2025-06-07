@@ -11,9 +11,7 @@ type FaqItem = {
 const FaqItemCom = (props: { item: FaqItem }) => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="mx-auto w-full max-w-6xl space-y-4">
-      <h2 className="mb-6 text-2xl font-bold text-white">常见问题</h2>
-
+    <div className="mx-auto mb-8 w-full max-w-6xl space-y-4">
       <div
         className="overflow-hidden rounded-lg border border-gray-700 bg-primary backdrop-blur-sm"
       >
@@ -76,8 +74,8 @@ export const Faq = () => {
   ];
 
   return (
-    <div>
-      <h2 className="mt-10 text-center text-2xl font-bold text-primary">FAQ</h2>
+    <div className="mb-10">
+      <h2 className="mb-8 mt-10 text-center text-2xl font-bold text-primary">{t('faq')}</h2>
 
       {faqData.map(item => (
         <FaqItemCom key={item.question} item={item} />

@@ -1,0 +1,139 @@
+{
+  "RootLayout": {
+    "home_link": "Startseite",
+    "about_link": "Über uns",
+    "counter_link": "Zähler",
+    "portfolio_link": "Portfolio",
+    "sign_in_link": "Anmelden",
+    "sign_up_link": "Registrieren"
+  },
+  "BaseTemplate": {
+    "description": "Starter-Code für dein Nextjs Boilerplate mit Tailwind CSS",
+    "made_with": "Erstellt mit <author></author>."
+  },
+  "Index": {
+    "meta_title": "Next.js Boilerplate Präsentation",
+    "meta_description": "Next js Boilerplate ist der perfekte Starter-Code für dein Projekt. Baue deine React-Anwendung mit dem Next.js Framework.",
+    "sponsors_title": "Sponsoren"
+  },
+  "Counter": {
+    "meta_title": "Zähler",
+    "meta_description": "Ein Beispiel für eine Datenbankoperation",
+    "loading_counter": "Zähler wird geladen...",
+    "error_reporting_powered_by": "Fehlerberichterstattung betrieben von"
+  },
+  "CounterForm": {
+    "presentation": "Der Zähler wird in der Datenbank gespeichert und um den von dir angegebenen Wert erhöht.",
+    "label_increment": "Erhöhen um",
+    "button_increment": "Erhöhen"
+  },
+  "CurrentCount": {
+    "count": "Zähler: {count}"
+  },
+  "About": {
+    "meta_title": "Über uns",
+    "meta_description": "Beschreibung der Über uns-Seite",
+    "about_paragraph": "Willkommen auf unserer Über uns-Seite! Wir sind ein Team leidenschaftlicher Individuen, die sich der Erstellung erstaunlicher Software widmen.",
+    "translation_powered_by": "Übersetzung betrieben von"
+  },
+  "Portfolio": {
+    "meta_title": "Portfolio",
+    "meta_description": "Willkommen auf meiner Portfolio-Seite!",
+    "presentation": "Willkommen auf meiner Portfolio-Seite! Hier findest du eine sorgfältig kuratierte Sammlung meiner Arbeiten und Erfolge. Durch dieses Portfolio möchte ich meine Expertise, Kreativität und den Mehrwert, den ich deinen Projekten bieten kann, präsentieren.",
+    "portfolio_name": "Portfolio {name}",
+    "error_reporting_powered_by": "Fehlerberichterstattung betrieben von",
+    "coverage_powered_by": "Codeabdeckung betrieben von"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Portfolio {slug}",
+    "meta_description": "Portfolio {slug} Beschreibung",
+    "header": "Portfolio {slug}",
+    "content": "Erstellte eine Reihe von Werbematerialien und Branding-Elementen für ein Firmenevent. Entwickelte ein visuell einheitliches Thema, das ein Logo, Poster, Banner und digitale Assets umfasst. Integrierte die Markenidentität des Kunden und verlieh ihr einen zeitgemäßen und innovativen Ansatz. Erzielte positive Resonanz bei den Veranstaltungsteilnehmern, was zu einer erfolgreichen Veranstaltung mit erhöhter Teilnehmerbeteiligung und gesteigerter Markenbekanntheit führte.",
+    "log_management_powered_by": "Protokollverwaltung betrieben von"
+  },
+  "SignIn": {
+    "meta_title": "Anmelden",
+    "meta_description": "Melde dich nahtlos bei deinem Konto an mit unserem benutzerfreundlichen Anmeldeprozess."
+  },
+  "SignUp": {
+    "meta_title": "Registrieren",
+    "meta_description": "Erstelle mühelos ein Konto über unseren intuitiven Registrierungsprozess."
+  },
+  "Dashboard": {
+    "meta_title": "Dashboard",
+    "hello_message": "Hallo {email}!"
+  },
+  "UserProfile": {
+    "meta_title": "Benutzerprofil"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Dashboard",
+    "user_profile_link": "Verwalte dein Konto",
+    "sign_out": "Abmelden"
+  },
+
+  "X": {
+    "title": "Twitter/X Video-Download",
+    "description": "Lade schnell und kostenlos Twitter-Videos in hoher Auflösung herunter, keine Registrierung erforderlich",
+    "input_placeholder": "Geben Sie den Twitter/X-Video-Link ein",
+
+    "download_button_tip": "Fügen Sie den Videolink hier ein",
+    "download": "Herunterladen",
+    "downloading": "Wird heruntergeladen",
+    "validation_error1": "Bitte geben Sie einen Videolink ein",
+    "validation_error2": "Bitte geben Sie einen gültigen X-Plattform-Videolink ein",
+    "analysis_error": "Download fehlgeschlagen, bitte versuchen Sie es später erneut",
+
+    "welcome": "Willkommen bei GetSany, einer Website, die speziell für das Herunterladen von Videos aus X-Plattform-Posts entwickelt wurde. Wir bieten eine schnelle und zuverlässige Lösung, um Ihnen zu helfen, Plattform-Download-Beschränkungen einfach zu umgehen. Mit unserer einfachen und benutzerfreundlichen Oberfläche können Sie Ihre Lieblingsinhalte einfach abrufen und herunterladen, was den Videoerwerb unglaublich einfach macht. Ob Sie spannende Momente speichern oder offline ansehen möchten, wir können Ihre Bedürfnisse erfüllen. Erleben Sie es jetzt und laden Sie einfach herunter!",
+    "supported": "Unterstützte Plattformen:",
+    "welcome2": "Willkommen bei GetSany, einem Tool, das speziell für das Herunterladen von Videos aus X-Plattform-Posts entwickelt wurde. Wir bieten einen völlig kostenlosen Service, um Ihnen zu helfen, die Inhalte, die Sie benötigen, einfach zu erhalten.",
+    "welcome3": "Unser Tool ist mit allen Geräten kompatibel, ob Desktop oder Mobilgerät, sodass Sie Ihre Lieblingsvideos einfach herunterladen können.",
+    "welcome4": "Mit nur wenigen einfachen Schritten können Sie X-Plattform-Videos über unsere Plattform konvertieren.",
+    "welcome5": "Genießen Sie schnelle Downloads und unbegrenzten Videozugriff ohne Kosten.",
+    "welcome6": "Mit unseren detaillierten Anleitungen und Expertenratschlägen beherrschen Sie problemlos die Fähigkeiten des Video-Downloads.",
+
+    "faq": "Häufig gestellte Fragen",
+    "faq1": {
+      "question": "Was ist GetSany/X und was macht es?",
+      "answer": "GetSany/X ist ein professionelles Video-Download-Tool für die X-Plattform. Es hilft Benutzern, Video-Inhalte von der X-Plattform einfach herunterzuladen und zu speichern, ohne Registrierung, völlig kostenlos. Unser Tool bietet ein Hochgeschwindigkeits-Download-Erlebnis und unterstützt HD-Videoqualität, was es zu einer idealen Wahl für den Erhalt von Video-Inhalten von der X-Plattform macht."
+    },
+    "faq2": {
+      "question": "Wie benutze ich GetSany/X, um X-Videos herunterzuladen?",
+      "answer": "Die Verwendung von GetSany/X zum Herunterladen von Videos ist sehr einfach:\n1. Kopieren Sie den X-Video-Link, den Sie herunterladen möchten\n2. Fügen Sie den Link in das Eingabefeld auf unserer Website ein\n3. Klicken Sie auf die Schaltfläche \"Herunterladen\"\n4. Wählen Sie die gewünschte Videoqualität aus\n5. Warten Sie, bis der Download abgeschlossen ist"
+    },
+    "faq3": {
+      "question": "Welche Videoformate unterstützt GetSany/X?",
+      "answer": "GetSany/X unterstützt das Herunterladen in verschiedenen Videoformaten:\n• MP4 HD-Format\n• WebM-Format\n• Audio MP3-Format\nWir erkennen automatisch die beste Qualität, und Sie können auch das passende Format und die Qualität nach Ihren Bedürfnissen auswählen."
+    },
+    "faq4": {
+      "question": "Ist GetSany/X sicher?",
+      "answer": "Ja, GetSany/X ist völlig sicher. Unser Service:\n• Erfordert keine Softwareinstallation\n• Sammelt keine persönlichen Benutzerdaten\n• Verwendet HTTPS-Verschlüsselung zum Schutz der Datenübertragung\n• Führt regelmäßige Sicherheitsüberprüfungen und Updates durch\n• Ist werbefrei und malwarefrei"
+    }
+  },
+
+  "YouTube": {
+    "title": "YouTube Video Downloader",
+    "description": "Laden Sie YouTube-Videos schnell und einfach herunter - keine Registrierung erforderlich",
+    "input_placeholder": "Fügen Sie hier Ihren Videolink ein",
+    "download": "Herunterladen",
+    "downloading": "Wird heruntergeladen...",
+    "scanned_by": "Gescant von",
+    "norton_safe": "Norton™ Safe Web",
+    "supported_platforms": "Unterstützte Plattformen:",
+
+    "features": {
+      "feature1": "Erleben Sie das beste YouTube-Video-Download-Erlebnis mit unserem bestbewerteten Tool - völlig kostenlos.",
+      "feature2": "Laden Sie Inhalte in Ihrer bevorzugten Qualität herunter: von MP4 bis MP3, von Standard- bis Full-HD-Auflösung.",
+      "feature3": "Perfekte Kompatibilität auf allen Geräten - laden Sie Ihre Lieblingsvideos auf Desktop oder Mobilgerät herunter.",
+      "feature4": "Konvertieren Sie YouTube-Videos mit nur wenigen einfachen Klicks über unsere optimierte Plattform.",
+      "feature5": "Erhalten Sie blitzschnelle Downloads und unbegrenzten Videozugriff, ohne einen Cent auszugeben.",
+      "feature6": "Meistern Sie das Herunterladen von YouTube-Videos mit unserem umfassenden Leitfaden und Expertentipps."
+    },
+
+    "errors": {
+      "invalid_url": "Bitte geben Sie eine gültige YouTube-URL ein",
+      "download_failed": "Video konnte nicht heruntergeladen werden. Bitte versuchen Sie es erneut.",
+      "empty_url": "Bitte geben Sie eine Video-URL ein"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "RootLayout": {
+    "home_link": "Beranda",
+    "about_link": "Tentang",
+    "counter_link": "Penghitung",
+    "portfolio_link": "Portofolio",
+    "sign_in_link": "Masuk",
+    "sign_up_link": "Daftar"
+  },
+  "BaseTemplate": {
+    "description": "Kode awal untuk Nextjs Boilerplate Anda dengan Tailwind CSS",
+    "made_with": "Dibuat dengan <author></author>."
+  },
+  "Index": {
+    "meta_title": "Presentasi Next.js Boilerplate",
+    "meta_description": "Next js Boilerplate adalah kode awal yang sempurna untuk proyek Anda. Bangun aplikasi React Anda dengan kerangka kerja Next.js.",
+    "sponsors_title": "Sponsor"
+  },
+  "Counter": {
+    "meta_title": "Penghitung",
+    "meta_description": "Contoh operasi basis data",
+    "loading_counter": "Memuat penghitung...",
+    "error_reporting_powered_by": "Pelaporan kesalahan didukung oleh"
+  },
+  "CounterForm": {
+    "presentation": "Penghitung disimpan dalam basis data dan ditambahkan dengan nilai yang Anda berikan.",
+    "label_increment": "Tambah dengan",
+    "button_increment": "Tambah"
+  },
+  "CurrentCount": {
+    "count": "Jumlah: {count}"
+  },
+  "About": {
+    "meta_title": "Tentang",
+    "meta_description": "Deskripsi halaman Tentang",
+    "about_paragraph": "Selamat datang di halaman Tentang kami! Kami adalah tim individu yang bersemangat yang berdedikasi untuk menciptakan perangkat lunak yang luar biasa.",
+    "translation_powered_by": "Terjemahan didukung oleh"
+  },
+  "Portfolio": {
+    "meta_title": "Portofolio",
+    "meta_description": "Selamat datang di halaman portofolio saya!",
+    "presentation": "Selamat datang di halaman portofolio saya! Di sini Anda akan menemukan koleksi karya dan pencapaian saya yang dipilih dengan cermat. Melalui portofolio ini, saya bertujuan untuk menunjukkan keahlian, kreativitas, dan nilai yang dapat saya bawa ke proyek Anda.",
+    "portfolio_name": "Portofolio {name}",
+    "error_reporting_powered_by": "Pelaporan kesalahan didukung oleh",
+    "coverage_powered_by": "Cakupan kode didukung oleh"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Portofolio {slug}",
+    "meta_description": "Deskripsi portofolio {slug}",
+    "header": "Portofolio {slug}",
+    "content": "Membuat satu set materi promosi dan elemen merek untuk acara perusahaan. Mengembangkan tema yang secara visual terpadu, mencakup logo, poster, spanduk, dan aset digital. Mengintegrasikan identitas merek klien sambil memasukkannya dengan pendekatan yang kontemporer dan inovatif. Mendapatkan tanggapan positif dari peserta acara, menghasilkan acara yang sukses dengan keterlibatan peserta yang meningkat dan visibilitas merek yang lebih tinggi.",
+    "log_management_powered_by": "Manajemen log didukung oleh"
+  },
+  "SignIn": {
+    "meta_title": "Masuk",
+    "meta_description": "Masuk ke akun Anda dengan mulus melalui proses login yang ramah pengguna."
+  },
+  "SignUp": {
+    "meta_title": "Daftar",
+    "meta_description": "Buat akun dengan mudah melalui proses pendaftaran kami yang intuitif."
+  },
+  "Dashboard": {
+    "meta_title": "Dasbor",
+    "hello_message": "Halo {email}!"
+  },
+  "UserProfile": {
+    "meta_title": "Profil Pengguna"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Dasbor",
+    "user_profile_link": "Kelola akun Anda",
+    "sign_out": "Keluar"
+  },
+
+  "X": {
+    "title": "Unduh Video Twitter/X",
+    "description": "Unduh video Twitter dengan cepat dan gratis dalam definisi tinggi, tidak perlu registrasi",
+    "input_placeholder": "Masukkan tautan video Twitter/X",
+
+    "download_button_tip": "Tempelkan tautan video di sini",
+    "download": "Unduh",
+    "downloading": "Mengunduh",
+    "validation_error1": "Silakan masukkan tautan video",
+    "validation_error2": "Silakan masukkan tautan video platform X yang valid",
+    "analysis_error": "Gagal mengunduh, silakan coba lagi nanti",
+
+    "welcome": "Selamat datang di GetSany, situs web yang dirancang khusus untuk mengunduh video dari postingan platform X. Kami menawarkan solusi yang cepat dan andal untuk membantu Anda dengan mudah melewati batasan unduhan platform. Dengan antarmuka yang sederhana dan ramah pengguna, Anda dapat dengan mudah mengakses dan mengunduh konten favorit Anda, membuat akuisisi video menjadi sangat mudah. Apakah Anda ingin menyimpan momen menarik atau menonton secara offline, kami dapat memenuhi kebutuhan Anda. Cobalah sekarang dan unduh dengan mudah!",
+    "supported": "Platform yang Didukung:",
+    "welcome2": "Selamat datang di GetSany, alat yang dirancang khusus untuk mengunduh video dari postingan platform X. Kami menawarkan layanan yang sepenuhnya gratis untuk membantu Anda dengan mudah mendapatkan konten yang Anda butuhkan.",
+    "welcome3": "Alat kami kompatibel dengan semua perangkat, baik desktop maupun seluler, memungkinkan Anda untuk dengan mudah mengunduh video favorit Anda.",
+    "welcome4": "Dengan hanya beberapa langkah sederhana, Anda dapat mengonversi video platform X melalui platform kami.",
+    "welcome5": "Nikmati unduhan cepat dan akses video tanpa batas tanpa biaya.",
+    "welcome6": "Dengan panduan terperinci dan saran ahli kami, kuasai dengan mudah keterampilan mengunduh video.",
+
+    "faq": "Pertanyaan Umum",
+    "faq1": {
+      "question": "Apa itu GetSany/X dan apa yang dilakukannya?",
+      "answer": "GetSany/X adalah alat unduh video profesional untuk platform X. Ini membantu pengguna untuk dengan mudah mengunduh dan menyimpan konten video dari platform X tanpa perlu registrasi, sepenuhnya gratis. Alat kami menawarkan pengalaman unduhan berkecepatan tinggi dan mendukung kualitas video definisi tinggi, menjadikannya pilihan ideal untuk mendapatkan konten video dari platform X."
+    },
+    "faq2": {
+      "question": "Bagaimana cara menggunakan GetSany/X untuk mengunduh video X?",
+      "answer": "Menggunakan GetSany/X untuk mengunduh video sangat mudah:\n1. Salin tautan video X yang ingin Anda unduh\n2. Tempelkan tautan ke dalam kotak input di situs web kami\n3. Klik tombol \"Unduh\"\n4. Pilih kualitas video yang Anda inginkan\n5. Tunggu hingga unduhan selesai"
+    },
+    "faq3": {
+      "question": "Format video apa yang didukung GetSany/X?",
+      "answer": "GetSany/X mendukung unduhan dalam berbagai format video:\n• Format MP4 HD\n• Format WebM\n• Format audio MP3\nKami secara otomatis mendeteksi kualitas terbaik, dan Anda juga dapat memilih format dan kualitas yang sesuai sesuai kebutuhan Anda."
+    },
+    "faq4": {
+      "question": "Apakah GetSany/X aman?",
+      "answer": "Ya, GetSany/X sepenuhnya aman. Layanan kami:\n• Tidak memerlukan instalasi perangkat lunak\n• Tidak mengumpulkan informasi pribadi pengguna\n• Menggunakan enkripsi HTTPS untuk melindungi transmisi data\n• Melakukan pemindaian keamanan dan pembaruan secara teratur\n• Bebas dari iklan dan malware"
+    }
+  },
+
+  "YouTube": {
+    "title": "Pengunduh Video YouTube",
+    "description": "Unduh video YouTube dengan cepat dan mudah - tidak perlu registrasi",
+    "input_placeholder": "Tempelkan tautan video Anda di sini",
+    "download": "Unduh",
+    "downloading": "Mengunduh...",
+    "scanned_by": "Dipindai oleh",
+    "norton_safe": "Norton™ Safe Web",
+    "supported_platforms": "Platform yang Didukung:",
+
+    "features": {
+      "feature1": "Nikmati pengalaman pengunduhan video YouTube terbaik dengan alat berperingkat teratas kami - sepenuhnya gratis.",
+      "feature2": "Unduh konten dalam kualitas yang Anda inginkan: dari MP4 hingga MP3, dari resolusi standar hingga Full HD.",
+      "feature3": "Kompatibilitas sempurna di semua perangkat - dapatkan video favorit Anda di desktop atau seluler.",
+      "feature4": "Konversi video YouTube hanya dengan beberapa klik sederhana menggunakan platform kami yang efisien.",
+      "feature5": "Dapatkan unduhan cepat dan akses video tanpa batas tanpa mengeluarkan uang sepeser pun.",
+      "feature6": "Kuasai pengunduhan YouTube dengan panduan komprehensif dan tips ahli kami."
+    },
+
+    "errors": {
+      "invalid_url": "Silakan masukkan URL YouTube yang valid",
+      "download_failed": "Gagal mengunduh video. Silakan coba lagi.",
+      "empty_url": "Silakan masukkan URL video"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "RootLayout": {
+    "home_link": "홈",
+    "about_link": "소개",
+    "counter_link": "카운터",
+    "portfolio_link": "포트폴리오",
+    "sign_in_link": "로그인",
+    "sign_up_link": "회원가입"
+  },
+  "BaseTemplate": {
+    "description": "Nextjs와 Tailwind CSS를 사용한 보일러플레이트 시작 코드",
+    "made_with": "<author></author>에 의해 제작되었습니다."
+  },
+  "Index": {
+    "meta_title": "Next.js 보일러플레이트 소개",
+    "meta_description": "Next js 보일러플레이트는 프로젝트를 위한 완벽한 시작 코드입니다. Next.js 프레임워크를 사용하여 React 애플리케이션을 구축하세요.",
+    "sponsors_title": "스폰서"
+  },
+  "Counter": {
+    "meta_title": "카운터",
+    "meta_description": "데이터베이스 작업의 예",
+    "loading_counter": "카운터 로딩 중...",
+    "error_reporting_powered_by": "오류 보고 제공"
+  },
+  "CounterForm": {
+    "presentation": "카운터는 데이터베이스에 저장되며 제공한 값만큼 증가합니다.",
+    "label_increment": "증가 값",
+    "button_increment": "증가"
+  },
+  "CurrentCount": {
+    "count": "카운트: {count}"
+  },
+  "About": {
+    "meta_title": "소개",
+    "meta_description": "소개 페이지 설명",
+    "about_paragraph": "소개 페이지에 오신 것을 환영합니다! 우리는 놀라운 소프트웨어를 만드는 데 전념하는 열정적인 개인들로 구성된 팀입니다.",
+    "translation_powered_by": "번역 제공"
+  },
+  "Portfolio": {
+    "meta_title": "포트폴리오",
+    "meta_description": "제 포트폴리오 페이지에 오신 것을 환영합니다!",
+    "presentation": "제 포트폴리오 페이지에 오신 것을 환영합니다! 여기에서 저의 작업과 성과를 엄선한 컬렉션을 찾을 수 있습니다. 이 포트폴리오를 통해 저의 전문성, 창의성 및 프로젝트에 기여할 수 있는 가치를 보여드리고자 합니다.",
+    "portfolio_name": "포트폴리오 {name}",
+    "error_reporting_powered_by": "오류 보고 제공",
+    "coverage_powered_by": "코드 커버리지 제공"
+  },
+  "PortfolioSlug": {
+    "meta_title": "포트폴리오 {slug}",
+    "meta_description": "포트폴리오 {slug} 설명",
+    "header": "포트폴리오 {slug}",
+    "content": "기업 이벤트를 위한 프로모션 자료 및 브랜딩 요소 세트를 만들었습니다. 로고, 포스터, 배너 및 디지털 자산을 포함한 시각적으로 통합된 테마를 개발했습니다. 고객의 브랜드 정체성을 통합하면서 현대적이고 혁신적인 접근 방식을 적용했습니다. 이벤트 참가자들로부터 긍정적인 반응을 얻었고, 참가자 참여가 증가하고 브랜드 가시성이 높아지는 성공적인 이벤트를 이끌어냈습니다.",
+    "log_management_powered_by": "로그 관리 제공"
+  },
+  "SignIn": {
+    "meta_title": "로그인",
+    "meta_description": "사용자 친화적인 로그인 프로세스를 통해 계정에 원활하게 로그인하세요."
+  },
+  "SignUp": {
+    "meta_title": "회원가입",
+    "meta_description": "직관적인 회원가입 프로세스를 통해 쉽게 계정을 만드세요."
+  },
+  "Dashboard": {
+    "meta_title": "대시보드",
+    "hello_message": "안녕하세요 {email}!"
+  },
+  "UserProfile": {
+    "meta_title": "사용자 프로필"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "대시보드",
+    "user_profile_link": "계정 관리",
+    "sign_out": "로그아웃"
+  },
+
+  "X": {
+    "title": "트위터/X 비디오 다운로드",
+    "description": "고해상도로 트위터 비디오를 빠르고 무료로 다운로드하세요, 등록 필요 없음",
+    "input_placeholder": "트위터/X 비디오 링크를 입력하세요",
+
+    "download_button_tip": "여기에 비디오 링크를 붙여넣으세요",
+    "download": "다운로드",
+    "downloading": "다운로드 중",
+    "validation_error1": "비디오 링크를 입력하세요",
+    "validation_error2": "유효한 X 플랫폼 비디오 링크를 입력하세요",
+    "analysis_error": "다운로드 실패, 나중에 다시 시도하세요",
+
+    "welcome": "GetSany에 오신 것을 환영합니다, X 플랫폼 게시물에서 비디오를 다운로드하기 위해 특별히 설계된 웹사이트입니다. 플랫폼의 다운로드 제한을 쉽게 우회할 수 있도록 빠르고 신뢰할 수 있는 솔루션을 제공합니다. 간단하고 사용자 친화적인 인터페이스를 통해 좋아하는 콘텐츠에 쉽게 접근하고 다운로드할 수 있으며, 비디오 획득을 매우 간단하게 만듭니다. 흥미로운 순간을 저장하거나 오프라인으로 시청하고 싶다면, 우리는 귀하의 요구를 충족할 수 있습니다. 지금 바로 사용해보고 쉽게 다운로드하세요!",
+    "supported": "지원되는 플랫폼:",
+    "welcome2": "GetSany에 오신 것을 환영합니다, X 플랫폼 게시물에서 비디오를 다운로드하기 위해 특별히 설계된 도구입니다. 필요한 콘텐츠를 쉽게 얻을 수 있도록 완전히 무료 서비스를 제공합니다.",
+    "welcome3": "우리의 도구는 데스크톱이든 모바일이든 모든 장치와 호환되며, 좋아하는 비디오를 쉽게 다운로드할 수 있습니다.",
+    "welcome4": "몇 가지 간단한 단계만으로, 우리 플랫폼을 통해 X 플랫폼 비디오를 변환할 수 있습니다.",
+    "welcome5": "비용 없이 빠른 다운로드와 무제한 비디오 액세스를 즐기세요.",
+    "welcome6": "상세한 가이드와 전문가의 조언으로 비디오 다운로드 기술을 쉽게 마스터하세요.",
+
+    "faq": "자주 묻는 질문",
+    "faq1": {
+      "question": "GetSany/X는 무엇이며 무엇을 하나요?",
+      "answer": "GetSany/X는 X 플랫폼을 위한 전문 비디오 다운로드 도구입니다. 사용자가 X 플랫폼에서 비디오 콘텐츠를 쉽게 다운로드하고 저장할 수 있도록 도와주며, 등록이 필요 없고 완전히 무료입니다. 우리의 도구는 고속 다운로드 경험을 제공하며 고해상도 비디오 품질을 지원하여 X 플랫폼에서 비디오 콘텐츠를 얻기 위한 이상적인 선택이 됩니다."
+    },
+    "faq2": {
+      "question": "GetSany/X를 사용하여 X 비디오를 어떻게 다운로드하나요?",
+      "answer": "GetSany/X를 사용하여 비디오를 다운로드하는 것은 매우 간단합니다:\n1. 다운로드하려는 X 비디오 링크를 복사하세요\n2. 링크를 웹사이트의 입력 상자에 붙여넣으세요\n3. \"다운로드\" 버튼을 클릭하세요\n4. 원하는 비디오 품질을 선택하세요\n5. 다운로드가 완료될 때까지 기다리세요"
+    },
+    "faq3": {
+      "question": "GetSany/X는 어떤 비디오 형식을 지원하나요?",
+      "answer": "GetSany/X는 다양한 비디오 형식으로 다운로드를 지원합니다:\n• MP4 HD 형식\n• WebM 형식\n• 오디오 MP3 형식\n우리는 자동으로 최상의 품질을 감지하며, 필요에 따라 적절한 형식과 품질을 선택할 수도 있습니다."
+    },
+    "faq4": {
+      "question": "GetSany/X는 안전한가요?",
+      "answer": "네, GetSany/X는 완전히 안전합니다. 우리의 서비스는:\n• 소프트웨어 설치가 필요 없습니다\n• 사용자의 개인 정보를 수집하지 않습니다\n• 데이터 전송을 보호하기 위해 HTTPS 암호화를 사용합니다\n• 정기적인 보안 검사 및 업데이트를 수행합니다\n• 광고 및 악성 소프트웨어가 없습니다"
+    }
+  },
+
+  "YouTube": {
+    "title": "유튜브 비디오 다운로드",
+    "description": "유튜브 비디오를 빠르고 쉽게 다운로드하세요 - 등록 필요 없음",
+    "input_placeholder": "여기에 비디오 링크를 붙여넣으세요",
+    "download": "다운로드",
+    "downloading": "다운로드 중...",
+    "scanned_by": "검사됨",
+    "norton_safe": "Norton™ Safe Web",
+    "supported_platforms": "지원되는 플랫폼:",
+
+    "features": {
+      "feature1": "우리의 최고 평가 도구로 최고의 유튜브 비디오 다운로드 경험을 즐기세요 - 완전히 무료입니다.",
+      "feature2": "MP4에서 MP3까지, 표준 해상도에서 풀 HD까지 원하는 품질로 콘텐츠를 다운로드하세요.",
+      "feature3": "모든 장치에서 완벽한 호환성 - 데스크톱이나 모바일에서 좋아하는 비디오를 얻으세요.",
+      "feature4": "최적화된 플랫폼을 사용하여 몇 번의 간단한 클릭으로 유튜브 비디오를 변환하세요.",
+      "feature5": "번개처럼 빠른 다운로드와 비용 없이 무제한 비디오 액세스를 얻으세요.",
+      "feature6": "포괄적인 가이드와 전문가 팁으로 유튜브 다운로드를 마스터하세요."
+    },
+
+    "errors": {
+      "invalid_url": "유효한 유튜브 URL을 입력하세요",
+      "download_failed": "비디오 다운로드에 실패했습니다. 다시 시도하세요.",
+      "empty_url": "비디오 URL을 입력하세요"
+    }
+  }
+}

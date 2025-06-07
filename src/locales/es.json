@@ -1,0 +1,139 @@
+{
+  "RootLayout": {
+    "home_link": "Inicio",
+    "about_link": "Acerca de",
+    "counter_link": "Contador",
+    "portfolio_link": "Portafolio",
+    "sign_in_link": "Iniciar sesión",
+    "sign_up_link": "Registrarse"
+  },
+  "BaseTemplate": {
+    "description": "Código inicial para tu plantilla de Nextjs con Tailwind CSS",
+    "made_with": "Hecho con <author></author>."
+  },
+  "Index": {
+    "meta_title": "Presentación de Next.js Boilerplate",
+    "meta_description": "Next js Boilerplate es el código inicial perfecto para tu proyecto. Construye tu aplicación React con el marco de Next.js.",
+    "sponsors_title": "Patrocinadores"
+  },
+  "Counter": {
+    "meta_title": "Contador",
+    "meta_description": "Un ejemplo de operación de base de datos",
+    "loading_counter": "Cargando contador...",
+    "error_reporting_powered_by": "Informe de errores impulsado por"
+  },
+  "CounterForm": {
+    "presentation": "El contador se almacena en la base de datos y se incrementa por el valor que proporciones.",
+    "label_increment": "Incrementar por",
+    "button_increment": "Incrementar"
+  },
+  "CurrentCount": {
+    "count": "Cuenta: {count}"
+  },
+  "About": {
+    "meta_title": "Acerca de",
+    "meta_description": "Descripción de la página Acerca de",
+    "about_paragraph": "¡Bienvenido a nuestra página Acerca de! Somos un equipo de personas apasionadas dedicadas a crear software increíble.",
+    "translation_powered_by": "Traducción impulsada por"
+  },
+  "Portfolio": {
+    "meta_title": "Portafolio",
+    "meta_description": "¡Bienvenido a mi página de portafolio!",
+    "presentation": "¡Bienvenido a mi página de portafolio! Aquí encontrarás una colección cuidadosamente seleccionada de mi trabajo y logros. A través de este portafolio, busco mostrar mi experiencia, creatividad y el valor que puedo aportar a tus proyectos.",
+    "portfolio_name": "Portafolio {name}",
+    "error_reporting_powered_by": "Informe de errores impulsado por",
+    "coverage_powered_by": "Cobertura de código impulsada por"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Portafolio {slug}",
+    "meta_description": "Descripción del portafolio {slug}",
+    "header": "Portafolio {slug}",
+    "content": "Creó un conjunto de materiales promocionales y elementos de marca para un evento corporativo. Elaboró un tema visualmente unificado, que abarca un logotipo, carteles, pancartas y activos digitales. Integró la identidad de marca del cliente mientras la infundía con un enfoque contemporáneo e innovador. Recibió respuestas favorables de los asistentes al evento, resultando en un evento exitoso con mayor participación de los asistentes y mayor visibilidad de la marca.",
+    "log_management_powered_by": "Gestión de registros impulsada por"
+  },
+  "SignIn": {
+    "meta_title": "Iniciar sesión",
+    "meta_description": "Inicia sesión en tu cuenta de manera fluida con nuestro proceso de inicio de sesión fácil de usar."
+  },
+  "SignUp": {
+    "meta_title": "Registrarse",
+    "meta_description": "Crea una cuenta fácilmente a través de nuestro proceso de registro intuitivo."
+  },
+  "Dashboard": {
+    "meta_title": "Tablero",
+    "hello_message": "¡Hola {email}!"
+  },
+  "UserProfile": {
+    "meta_title": "Perfil de usuario"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Tablero",
+    "user_profile_link": "Gestiona tu cuenta",
+    "sign_out": "Cerrar sesión"
+  },
+
+  "X": {
+    "title": "Descarga de videos de Twitter/X",
+    "description": "Descarga rápidamente y de forma gratuita videos de Twitter en alta definición, sin necesidad de registro",
+    "input_placeholder": "Ingresa el enlace del video de Twitter/X",
+
+    "download_button_tip": "Pega el enlace del video aquí",
+    "download": "Descargar",
+    "downloading": "Descargando",
+    "validation_error1": "Por favor ingresa un enlace de video",
+    "validation_error2": "Por favor ingresa un enlace de video válido de la plataforma X",
+    "analysis_error": "La descarga falló, por favor intenta nuevamente más tarde",
+
+    "welcome": "Bienvenido a GetSany, un sitio web diseñado específicamente para descargar videos de publicaciones de la plataforma X. Ofrecemos una solución rápida y confiable para ayudarte a sortear fácilmente las restricciones de descarga de la plataforma. Con nuestra interfaz simple y fácil de usar, puedes acceder y descargar fácilmente tu contenido favorito, haciendo que la adquisición de videos sea increíblemente simple. Ya sea que quieras guardar momentos emocionantes o ver sin conexión, podemos satisfacer tus necesidades. ¡Experiméntalo ahora y descarga fácilmente!",
+    "supported": "Plataformas compatibles:",
+    "welcome2": "Bienvenido a GetSany, una herramienta diseñada específicamente para descargar videos de publicaciones de la plataforma X. Ofrecemos un servicio completamente gratuito para ayudarte a obtener fácilmente el contenido que necesitas.",
+    "welcome3": "Nuestra herramienta es compatible con todos los dispositivos, ya sea de escritorio o móvil, lo que te permite descargar fácilmente tus videos favoritos.",
+    "welcome4": "Con solo unos pocos pasos simples, puedes convertir videos de la plataforma X a través de nuestra plataforma.",
+    "welcome5": "Disfruta de descargas rápidas y acceso ilimitado a videos sin ningún costo.",
+    "welcome6": "Con nuestras guías detalladas y consejos de expertos, domina fácilmente las habilidades de descarga de videos.",
+
+    "faq": "Preguntas frecuentes",
+    "faq1": {
+      "question": "¿Qué es GetSany/X y qué hace?",
+      "answer": "GetSany/X es una herramienta profesional de descarga de videos para la plataforma X. Ayuda a los usuarios a descargar y guardar fácilmente contenido de video de la plataforma X sin necesidad de registro, completamente gratis. Nuestra herramienta ofrece una experiencia de descarga de alta velocidad y admite calidad de video en alta definición, lo que la convierte en una opción ideal para obtener contenido de video de la plataforma X."
+    },
+    "faq2": {
+      "question": "¿Cómo uso GetSany/X para descargar videos de X?",
+      "answer": "Usar GetSany/X para descargar videos es muy simple:\n1. Copia el enlace del video de X que deseas descargar\n2. Pega el enlace en el cuadro de entrada en nuestro sitio web\n3. Haz clic en el botón \"Descargar\"\n4. Elige la calidad de video que deseas\n5. Espera a que la descarga se complete"
+    },
+    "faq3": {
+      "question": "¿Qué formatos de video admite GetSany/X?",
+      "answer": "GetSany/X admite la descarga en varios formatos de video:\n• Formato MP4 HD\n• Formato WebM\n• Formato de audio MP3\nDetectamos automáticamente la mejor calidad, y también puedes elegir el formato y la calidad apropiados según tus necesidades."
+    },
+    "faq4": {
+      "question": "¿Es seguro GetSany/X?",
+      "answer": "Sí, GetSany/X es completamente seguro. Nuestro servicio:\n• No requiere instalación de software\n• No recopila información personal del usuario\n• Utiliza cifrado HTTPS para proteger la transmisión de datos\n• Realiza escaneos de seguridad y actualizaciones regulares\n• Está libre de anuncios y malware"
+    }
+  },
+
+  "YouTube": {
+    "title": "Descargador de videos de YouTube",
+    "description": "Descarga videos de YouTube rápida y fácilmente - no se requiere registro",
+    "input_placeholder": "Pega tu enlace de video aquí",
+    "download": "Descargar",
+    "downloading": "Descargando...",
+    "scanned_by": "Escaneado por",
+    "norton_safe": "Norton™ Safe Web",
+    "supported_platforms": "Plataformas compatibles:",
+
+    "features": {
+      "feature1": "Experimenta la mejor descarga de videos de YouTube con nuestra herramienta mejor valorada - completamente gratis.",
+      "feature2": "Descarga contenido en tu calidad preferida: desde MP4 hasta MP3, resolución estándar hasta Full HD.",
+      "feature3": "Compatibilidad perfecta en todos los dispositivos - descarga tus videos favoritos en escritorio o móvil.",
+      "feature4": "Convierte videos de YouTube con solo unos pocos clics simples usando nuestra plataforma optimizada.",
+      "feature5": "Obtén descargas ultrarrápidas y acceso ilimitado a videos sin gastar un centavo.",
+      "feature6": "Domina la descarga de YouTube con nuestra guía completa y consejos de expertos."
+    },
+
+    "errors": {
+      "invalid_url": "Por favor ingresa una URL válida de YouTube",
+      "download_failed": "No se pudo descargar el video. Por favor intenta nuevamente.",
+      "empty_url": "Por favor ingresa una URL de video"
+    }
+  }
+}
