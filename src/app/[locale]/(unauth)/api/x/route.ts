@@ -3,10 +3,10 @@ import util from 'node:util';
 
 import { NextResponse } from 'next/server';
 
-type YouGetOutput = {
-  data: any;
-  status: number;
-};
+// type YouGetOutput = {
+//   data: any;
+//   status: number;
+// };
 
 const execPromise = util.promisify(exec);
 
@@ -33,16 +33,21 @@ export async function POST(request: Request): Promise<NextResponse> {
     // 执行 you-get 命令获取视频信息
     const { stdout } = await execPromise(`you-get --json ${url}`);
 
-    const { data, status } = parseYouGetOutput(stdout);
+    return NextResponse.json(
+      { data: stdout },
+      { status: 200 },
+    );
 
-    if (status !== 200) {
-      return NextResponse.json(
-        { error: JSON.stringify({ data, status }) },
-        { status },
-      );
-    }
+    // const { data, status } = parseYouGetOutput(stdout);
 
-    return NextResponse.json({ data: JSON.stringify({ data, status }) }, { status });
+    // if (status !== 200) {
+    //   return NextResponse.json(
+    //     { error: JSON.stringify({ data, status }) },
+    //     { status },
+    //   );
+    // }
+
+    // return NextResponse.json({ data: JSON.stringify({ data, status }) }, { status });
   } catch (error) {
     console.error('下载处理错误:', error);
     return NextResponse.json(
@@ -53,22 +58,22 @@ export async function POST(request: Request): Promise<NextResponse> {
 }
 
 // 获取 you-get 输出中的实际视频 URL
-function parseYouGetOutput(output: string): YouGetOutput {
-  // 判断是否为JSON
+// function parseYouGetOutput(output: string): YouGetOutput {
+//   // 判断是否为JSON
 
-  try {
-    // 尝试解析为 JSON
-    const jsonOutput = JSON.parse(output);
-    return {
-      data: jsonOutput,
-      status: 200,
-    };
-  } catch (e) {
-    console.error('解析 JSON 错误:', e);
+//   try {
+//     // 尝试解析为 JSON
+//     const jsonOutput = JSON.parse(output);
+//     return {
+//       data: jsonOutput,
+//       status: 200,
+//     };
+//   } catch (e) {
+//     console.error('解析 JSON 错误:', e);
 
-    return {
-      data: e,
-      status: 500,
-    };
-  }
-}
+//     return {
+//       data: e,
+//       status: 500,
+//     };
+//   }
+// }

@@ -41,8 +41,6 @@ export function DownloadButton() {
         body: JSON.stringify({ url: userInput }),
       });
 
-      console.error('下载成功1:', res);
-
       const data = await res.json();
       console.error('下载成功2:', data);
     } catch (err) {
