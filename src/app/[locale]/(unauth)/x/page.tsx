@@ -1,10 +1,22 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import { DownloadButton } from '@/components/x/DownloadButton';
 import { Faq } from '@/components/x/Faq';
+
+export async function generateMetadata(props: { params: { locale: string } }) {
+  const t = await getTranslations({
+    locale: props.params.locale,
+    namespace: 'X',
+  });
+
+  return {
+    title: t('meta_title'),
+    description: t('meta_description'),
+  };
+}
 
 export default function XPage(props: { params: { locale: string } }) {
   unstable_setRequestLocale(props.params.locale);

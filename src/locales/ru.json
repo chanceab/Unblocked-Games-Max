@@ -73,6 +73,9 @@
   },
 
   "X": {
+    "meta_title": "Скачивание видео GetXVideo",
+    "meta_description": "Быстро скачивайте видео Twitter/X с помощью GetXVideo, поддерживается HD качество без регистрации",
+
     "title": "Загрузка видео с Twitter/X",
     "description": "Быстро и бесплатно загружайте видео с Twitter в высоком разрешении, без регистрации",
     "input_placeholder": "Введите ссылку на видео Twitter/X",

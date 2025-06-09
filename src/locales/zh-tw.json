@@ -72,6 +72,8 @@
     "sign_out": "登出"
   },
   "X": {
+    "meta_title": "GetXVideo 影片下載",
+    "meta_description": "使用 GetXVideo 快速下載 Twitter/X 影片，支援高畫質，無需註冊。",
     "title": "Twitter/X 視頻下載",
     "description": "快速、免費下載推特視頻，支持高清畫質，無需註冊",
     "input_placeholder": "輸入 Twitter/X 視頻鏈接",

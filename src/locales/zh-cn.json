@@ -73,6 +73,9 @@
   },
 
   "X": {
+    "meta_title": "GetXVideo 视频下载",
+    "meta_description": "使用 GetXVideo 快速下载 Twitter/X 视频，支持高清画质，无需注册。",
+
     "title": "Twitter/X 视频下载",
     "description": "快速、免费下载推特视频，支持高清画质，无需注册",
     "input_placeholder": "输入 Twitter/X 视频链接",

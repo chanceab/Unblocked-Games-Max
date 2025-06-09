@@ -73,6 +73,9 @@
   },
 
   "X": {
+    "meta_title": "GetXVideo Video Download",
+    "meta_description": "Quickly download Twitter/X videos using GetXVideo, supporting HD quality without registration.",
+
     "title": "Twitter/X Video Download",
     "description": "Quickly and freely download Twitter videos in high definition, no registration required",
     "input_placeholder": "Enter Twitter/X video link",

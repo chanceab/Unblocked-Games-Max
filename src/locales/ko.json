@@ -73,6 +73,9 @@
   },
 
   "X": {
+    "meta_title": "GetXVideo 비디오 다운로드",
+    "meta_description": "GetXVideo를 사용하여 Twitter/X 비디오를 빠르게 다운로드하세요. HD 품질을 지원하며 등록이 필요 없습니다.",
+
     "title": "트위터/X 비디오 다운로드",
     "description": "고해상도로 트위터 비디오를 빠르고 무료로 다운로드하세요, 등록 필요 없음",
     "input_placeholder": "트위터/X 비디오 링크를 입력하세요",
