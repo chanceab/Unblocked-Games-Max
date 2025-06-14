@@ -1,0 +1,75 @@
+{
+  "RootLayout": {
+    "home_link": "홈",
+    "about_link": "소개",
+    "counter_link": "카운터",
+    "portfolio_link": "포트폴리오",
+    "sign_in_link": "로그인",
+    "sign_up_link": "회원가입"
+  },
+  "BaseTemplate": {
+    "description": "Nextjs와 Tailwind CSS를 사용한 보일러플레이트 시작 코드",
+    "made_with": "<author></author>에 의해 제작되었습니다."
+  },
+  "Index": {
+    "meta_title": "Next.js 보일러플레이트 소개",
+    "meta_description": "Next js 보일러플레이트는 프로젝트를 위한 완벽한 시작 코드입니다. Next.js 프레임워크를 사용하여 React 애플리케이션을 구축하세요.",
+    "sponsors_title": "스폰서"
+  },
+  "Counter": {
+    "meta_title": "카운터",
+    "meta_description": "데이터베이스 작업의 예",
+    "loading_counter": "카운터 로딩 중...",
+    "security_powered_by": "Security, bot detection and rate limiting powered by"
+  },
+  "CounterForm": {
+    "presentation": "카운터는 데이터베이스에 저장되며 제공한 값만큼 증가합니다.",
+    "label_increment": "증가 값",
+    "button_increment": "증가"
+  },
+  "CurrentCount": {
+    "count": "카운트: {count}"
+  },
+  "About": {
+    "meta_title": "소개",
+    "meta_description": "소개 페이지 설명",
+    "about_paragraph": "소개 페이지에 오신 것을 환영합니다! 우리는 놀라운 소프트웨어를 만드는 데 전념하는 열정적인 개인들로 구성된 팀입니다.",
+    "translation_powered_by": "번역 제공"
+  },
+  "Portfolio": {
+    "meta_title": "포트폴리오",
+    "meta_description": "제 포트폴리오 페이지에 오신 것을 환영합니다!",
+    "presentation": "제 포트폴리오 페이지에 오신 것을 환영합니다! 여기에서 저의 작업과 성과를 엄선한 컬렉션을 찾을 수 있습니다. 이 포트폴리오를 통해 저의 전문성, 창의성 및 프로젝트에 기여할 수 있는 가치를 보여드리고자 합니다.",
+    "portfolio_name": "포트폴리오 {name}",
+    "error_reporting_powered_by": "오류 보고 제공",
+    "coverage_powered_by": "코드 커버리지 제공"
+  },
+  "PortfolioSlug": {
+    "meta_title": "포트폴리오 {slug}",
+    "meta_description": "포트폴리오 {slug} 설명",
+    "header": "포트폴리오 {slug}",
+    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach.",
+    "code_review_powered_by": "Code review powered by"
+  },
+  "SignIn": {
+    "meta_title": "로그인",
+    "meta_description": "사용자 친화적인 로그인 프로세스를 통해 계정에 원활하게 로그인하세요."
+  },
+  "SignUp": {
+    "meta_title": "회원가입",
+    "meta_description": "직관적인 회원가입 프로세스를 통해 쉽게 계정을 만드세요."
+  },
+  "Dashboard": {
+    "meta_title": "대시보드",
+    "hello_message": "안녕하세요 {email}!",
+    "alternative_message": "Want to build your SaaS faster using the same stack? Try <url></url>."
+  },
+  "UserProfile": {
+    "meta_title": "사용자 프로필"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "대시보드",
+    "user_profile_link": "계정 관리",
+    "sign_out": "로그아웃"
+  }
+}
