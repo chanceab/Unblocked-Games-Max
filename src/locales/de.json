@@ -71,21 +71,18 @@
     "user_profile_link": "Verwalte dein Konto",
     "sign_out": "Abmelden"
   },
-
   "X": {
     "meta_title": "GetXVideo Video-Download",
     "meta_description": "Laden Sie schnell Twitter/X-Videos mit GetXVideo herunter, unterstützt HD-Qualität ohne Registrierung",
     "title": "Twitter/X Video-Download",
     "description": "Lade schnell und kostenlos Twitter-Videos in hoher Auflösung herunter, keine Registrierung erforderlich",
     "input_placeholder": "Geben Sie den Twitter/X-Video-Link ein",
-
     "download_button_tip": "Fügen Sie den Videolink hier ein",
     "download": "Herunterladen",
     "downloading": "Wird heruntergeladen",
     "validation_error1": "Bitte geben Sie einen Videolink ein",
     "validation_error2": "Bitte geben Sie einen gültigen X-Plattform-Videolink ein",
     "analysis_error": "Download fehlgeschlagen, bitte versuchen Sie es später erneut",
-
     "welcome": "Willkommen bei GetSany, einer Website, die speziell für das Herunterladen von Videos aus X-Plattform-Posts entwickelt wurde. Wir bieten eine schnelle und zuverlässige Lösung, um Ihnen zu helfen, Plattform-Download-Beschränkungen einfach zu umgehen. Mit unserer einfachen und benutzerfreundlichen Oberfläche können Sie Ihre Lieblingsinhalte einfach abrufen und herunterladen, was den Videoerwerb unglaublich einfach macht. Ob Sie spannende Momente speichern oder offline ansehen möchten, wir können Ihre Bedürfnisse erfüllen. Erleben Sie es jetzt und laden Sie einfach herunter!",
     "supported": "Unterstützte Plattformen:",
     "welcome2": "Willkommen bei GetSany, einem Tool, das speziell für das Herunterladen von Videos aus X-Plattform-Posts entwickelt wurde. Wir bieten einen völlig kostenlosen Service, um Ihnen zu helfen, die Inhalte, die Sie benötigen, einfach zu erhalten.",
@@ -93,7 +90,6 @@
     "welcome4": "Mit nur wenigen einfachen Schritten können Sie X-Plattform-Videos über unsere Plattform konvertieren.",
     "welcome5": "Genießen Sie schnelle Downloads und unbegrenzten Videozugriff ohne Kosten.",
     "welcome6": "Mit unseren detaillierten Anleitungen und Expertenratschlägen beherrschen Sie problemlos die Fähigkeiten des Video-Downloads.",
-
     "faq": "Häufig gestellte Fragen",
     "faq1": {
       "question": "Was ist GetSany/X und was macht es?",
@@ -112,7 +108,6 @@
       "answer": "Ja, GetSany/X ist völlig sicher. Unser Service:\n• Erfordert keine Softwareinstallation\n• Sammelt keine persönlichen Benutzerdaten\n• Verwendet HTTPS-Verschlüsselung zum Schutz der Datenübertragung\n• Führt regelmäßige Sicherheitsüberprüfungen und Updates durch\n• Ist werbefrei und malwarefrei"
     }
   },
-
   "YouTube": {
     "title": "YouTube Video Downloader",
     "description": "Laden Sie YouTube-Videos schnell und einfach herunter - keine Registrierung erforderlich",
@@ -122,7 +117,6 @@
     "scanned_by": "Gescant von",
     "norton_safe": "Norton™ Safe Web",
     "supported_platforms": "Unterstützte Plattformen:",
-
     "features": {
       "feature1": "Erleben Sie das beste YouTube-Video-Download-Erlebnis mit unserem bestbewerteten Tool - völlig kostenlos.",
       "feature2": "Laden Sie Inhalte in Ihrer bevorzugten Qualität herunter: von MP4 bis MP3, von Standard- bis Full-HD-Auflösung.",
@@ -131,7 +125,6 @@
       "feature5": "Erhalten Sie blitzschnelle Downloads und unbegrenzten Videozugriff, ohne einen Cent auszugeben.",
       "feature6": "Meistern Sie das Herunterladen von YouTube-Videos mit unserem umfassenden Leitfaden und Expertentipps."
     },
-
     "errors": {
       "invalid_url": "Bitte geben Sie eine gültige YouTube-URL ein",
       "download_failed": "Video konnte nicht heruntergeladen werden. Bitte versuchen Sie es erneut.",
