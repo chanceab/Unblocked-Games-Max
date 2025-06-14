@@ -1,0 +1,75 @@
+{
+  "RootLayout": {
+    "home_link": "ホーム",
+    "about_link": "概要",
+    "counter_link": "カウンター",
+    "portfolio_link": "ポートフォリオ",
+    "sign_in_link": "サインイン",
+    "sign_up_link": "サインアップ"
+  },
+  "BaseTemplate": {
+    "description": "Tailwind CSSを使用したNextjsボイラープレートのスターターコード",
+    "made_with": "<author></author>によって作成されました。"
+  },
+  "Index": {
+    "meta_title": "Next.jsボイラープレートの紹介",
+    "meta_description": "Next jsボイラープレートは、プロジェクトのための完璧なスターターコードです。Next.jsフレームワークを使用してReactアプリケーションを構築します。",
+    "sponsors_title": "スポンサー"
+  },
+  "Counter": {
+    "meta_title": "カウンター",
+    "meta_description": "データベース操作の例",
+    "loading_counter": "カウンターを読み込んでいます...",
+    "security_powered_by": "Security, bot detection and rate limiting powered by"
+  },
+  "CounterForm": {
+    "presentation": "カウンターはデータベースに保存され、指定した値でインクリメントされます。",
+    "label_increment": "インクリメントする値",
+    "button_increment": "インクリメント"
+  },
+  "CurrentCount": {
+    "count": "カウント: {count}"
+  },
+  "About": {
+    "meta_title": "概要",
+    "meta_description": "概要ページの説明",
+    "about_paragraph": "私たちの概要ページへようこそ！私たちは素晴らしいソフトウェアを作成することに情熱を持った個人のチームです。",
+    "translation_powered_by": "翻訳は以下によって提供されています"
+  },
+  "Portfolio": {
+    "meta_title": "ポートフォリオ",
+    "meta_description": "私のポートフォリオページへようこそ！",
+    "presentation": "私のポートフォリオページへようこそ！ここでは、私の作品と成果を厳選したコレクションをご覧いただけます。このポートフォリオを通じて、私の専門知識、創造性、そしてプロジェクトに提供できる価値を示したいと思います。",
+    "portfolio_name": "ポートフォリオ {name}",
+    "error_reporting_powered_by": "エラーレポートは以下によって提供されています",
+    "coverage_powered_by": "コードカバレッジは以下によって提供されています"
+  },
+  "PortfolioSlug": {
+    "meta_title": "ポートフォリオ {slug}",
+    "meta_description": "ポートフォリオ {slug} の説明",
+    "header": "ポートフォリオ {slug}",
+    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach.",
+    "code_review_powered_by": "Code review powered by"
+  },
+  "SignIn": {
+    "meta_title": "サインイン",
+    "meta_description": "使いやすいログインプロセスでアカウントにシームレスにサインインします。"
+  },
+  "SignUp": {
+    "meta_title": "サインアップ",
+    "meta_description": "直感的なサインアッププロセスを通じて簡単にアカウントを作成します。"
+  },
+  "Dashboard": {
+    "meta_title": "ダッシュボード",
+    "hello_message": "こんにちは {email}!",
+    "alternative_message": "Want to build your SaaS faster using the same stack? Try <url></url>."
+  },
+  "UserProfile": {
+    "meta_title": "ユーザープロフィール"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "ダッシュボード",
+    "user_profile_link": "アカウントを管理する",
+    "sign_out": "サインアウト"
+  }
+}
