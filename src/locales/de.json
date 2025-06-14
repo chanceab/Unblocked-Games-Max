@@ -1,0 +1,75 @@
+{
+  "RootLayout": {
+    "home_link": "Startseite",
+    "about_link": "Über uns",
+    "counter_link": "Zähler",
+    "portfolio_link": "Portfolio",
+    "sign_in_link": "Anmelden",
+    "sign_up_link": "Registrieren"
+  },
+  "BaseTemplate": {
+    "description": "Starter-Code für dein Nextjs Boilerplate mit Tailwind CSS",
+    "made_with": "Erstellt mit <author></author>."
+  },
+  "Index": {
+    "meta_title": "Next.js Boilerplate Präsentation",
+    "meta_description": "Next js Boilerplate ist der perfekte Starter-Code für dein Projekt. Baue deine React-Anwendung mit dem Next.js Framework.",
+    "sponsors_title": "Sponsoren"
+  },
+  "Counter": {
+    "meta_title": "Zähler",
+    "meta_description": "Ein Beispiel für eine Datenbankoperation",
+    "loading_counter": "Zähler wird geladen...",
+    "security_powered_by": "Security, bot detection and rate limiting powered by"
+  },
+  "CounterForm": {
+    "presentation": "Der Zähler wird in der Datenbank gespeichert und um den von dir angegebenen Wert erhöht.",
+    "label_increment": "Erhöhen um",
+    "button_increment": "Erhöhen"
+  },
+  "CurrentCount": {
+    "count": "Zähler: {count}"
+  },
+  "About": {
+    "meta_title": "Über uns",
+    "meta_description": "Beschreibung der Über uns-Seite",
+    "about_paragraph": "Willkommen auf unserer Über uns-Seite! Wir sind ein Team leidenschaftlicher Individuen, die sich der Erstellung erstaunlicher Software widmen.",
+    "translation_powered_by": "Übersetzung betrieben von"
+  },
+  "Portfolio": {
+    "meta_title": "Portfolio",
+    "meta_description": "Willkommen auf meiner Portfolio-Seite!",
+    "presentation": "Willkommen auf meiner Portfolio-Seite! Hier findest du eine sorgfältig kuratierte Sammlung meiner Arbeiten und Erfolge. Durch dieses Portfolio möchte ich meine Expertise, Kreativität und den Mehrwert, den ich deinen Projekten bieten kann, präsentieren.",
+    "portfolio_name": "Portfolio {name}",
+    "error_reporting_powered_by": "Fehlerberichterstattung betrieben von",
+    "coverage_powered_by": "Codeabdeckung betrieben von"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Portfolio {slug}",
+    "meta_description": "Portfolio {slug} Beschreibung",
+    "header": "Portfolio {slug}",
+    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach.",
+    "code_review_powered_by": "Code review powered by"
+  },
+  "SignIn": {
+    "meta_title": "Anmelden",
+    "meta_description": "Melde dich nahtlos bei deinem Konto an mit unserem benutzerfreundlichen Anmeldeprozess."
+  },
+  "SignUp": {
+    "meta_title": "Registrieren",
+    "meta_description": "Erstelle mühelos ein Konto über unseren intuitiven Registrierungsprozess."
+  },
+  "Dashboard": {
+    "meta_title": "Dashboard",
+    "hello_message": "Hallo {email}!",
+    "alternative_message": "Want to build your SaaS faster using the same stack? Try <url></url>."
+  },
+  "UserProfile": {
+    "meta_title": "Benutzerprofil"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Dashboard",
+    "user_profile_link": "Verwalte dein Konto",
+    "sign_out": "Abmelden"
+  }
+}
