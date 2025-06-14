@@ -1,0 +1,75 @@
+{
+  "RootLayout": {
+    "home_link": "Главная",
+    "about_link": "О нас",
+    "counter_link": "Счетчик",
+    "portfolio_link": "Портфолио",
+    "sign_in_link": "Войти",
+    "sign_up_link": "Зарегистрироваться"
+  },
+  "BaseTemplate": {
+    "description": "Стартовый код для вашего Nextjs Boilerplate с Tailwind CSS",
+    "made_with": "Сделано с <author></author>."
+  },
+  "Index": {
+    "meta_title": "Презентация Next.js Boilerplate",
+    "meta_description": "Next js Boilerplate — это идеальный стартовый код для вашего проекта. Создайте свое React-приложение с использованием фреймворка Next.js.",
+    "sponsors_title": "Спонсоры"
+  },
+  "Counter": {
+    "meta_title": "Счетчик",
+    "meta_description": "Пример операции с базой данных",
+    "loading_counter": "Загрузка счетчика...",
+    "security_powered_by": "Security, bot detection and rate limiting powered by"
+  },
+  "CounterForm": {
+    "presentation": "Счетчик хранится в базе данных и увеличивается на указанное вами значение.",
+    "label_increment": "Увеличить на",
+    "button_increment": "Увеличить"
+  },
+  "CurrentCount": {
+    "count": "Счет: {count}"
+  },
+  "About": {
+    "meta_title": "О нас",
+    "meta_description": "Описание страницы О нас",
+    "about_paragraph": "Добро пожаловать на нашу страницу О нас! Мы — команда увлеченных людей, посвященных созданию удивительного программного обеспечения.",
+    "translation_powered_by": "Перевод предоставлен"
+  },
+  "Portfolio": {
+    "meta_title": "Портфолио",
+    "meta_description": "Добро пожаловать на мою страницу портфолио!",
+    "presentation": "Добро пожаловать на мою страницу портфолио! Здесь вы найдете тщательно отобранную коллекцию моих работ и достижений. Через это портфолио я стремлюсь продемонстрировать свою экспертизу, креативность и ценность, которую я могу привнести в ваши проекты.",
+    "portfolio_name": "Портфолио {name}",
+    "error_reporting_powered_by": "Отчет об ошибках предоставлен",
+    "coverage_powered_by": "Покрытие кода предоставлено"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Портфолио {slug}",
+    "meta_description": "Описание портфолио {slug}",
+    "header": "Портфолио {slug}",
+    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach.",
+    "code_review_powered_by": "Code review powered by"
+  },
+  "SignIn": {
+    "meta_title": "Войти",
+    "meta_description": "Беспрепятственно войдите в свой аккаунт с помощью нашего удобного процесса входа."
+  },
+  "SignUp": {
+    "meta_title": "Зарегистрироваться",
+    "meta_description": "Легко создайте аккаунт с помощью нашего интуитивно понятного процесса регистрации."
+  },
+  "Dashboard": {
+    "meta_title": "Панель управления",
+    "hello_message": "Здравствуйте, {email}!",
+    "alternative_message": "Want to build your SaaS faster using the same stack? Try <url></url>."
+  },
+  "UserProfile": {
+    "meta_title": "Профиль пользователя"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Панель управления",
+    "user_profile_link": "Управление аккаунтом",
+    "sign_out": "Выйти"
+  }
+}
